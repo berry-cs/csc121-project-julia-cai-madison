@@ -1,9 +1,16 @@
 
-/*  */
+/* Is dialogue that changes with the scene */
 
 public class PassiveDialogue {
 
-	Character Character; 
 	String text;
+	
+	
+	public PassiveDialogue(String text) {
+		this.text = text; 
+	}
+	
+	
+	
 	
 }
