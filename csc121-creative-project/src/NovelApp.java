@@ -4,21 +4,23 @@ import processing.event.*;
 /**
  * Provides the scaffolding to launch a Processing application
  */
-public class AppTemplate extends PApplet {	// <----- 1. rename AppTemplate everywhere in this file
+public class NovelApp extends PApplet {	// <----- 1. rename AppTemplate everywhere in this file
     IWorld w;
-    
+     
     public void settings() {
         this.size(400, 400);
     }
     
     public void setup() {
-        //w = new WORLD(..........)   	<----- 2. create your initial world object
+        w = new NovelWorld(200, 0);   	//<----- 2. create your initial world object
     }
     
     public void draw() {
         w = w.update();
         w.draw(this);
     }
+    
+   
     
     @Override
     public void mousePressed(MouseEvent mev) {
@@ -76,6 +78,6 @@ public class AppTemplate extends PApplet {	// <----- 1. rename AppTemplate every
     }
 
     public static void main(String[] args) {
-        PApplet.runSketch(new String[] { AppTemplate.class.getName() }, new AppTemplate());
+        PApplet.runSketch(new String[] { NovelApp.class.getName() }, new NovelApp());
     }
 }
