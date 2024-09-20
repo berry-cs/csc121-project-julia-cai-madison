@@ -1,5 +1,5 @@
 
-/*  Represents a visual novel that  */
+/*  Represents a visual novel */
 
 import processing.core.PApplet;
 
