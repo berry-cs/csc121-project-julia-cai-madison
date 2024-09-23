@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 class ActiveDialogueTest {
 
 	ActiveDialogue ABC = new ActiveDialogue("Yes", "No", "Maybe");
+	ActiveDialogue XYZ = new ActiveDialogue("No", "Why?", "Okay");
 	
 	
 	

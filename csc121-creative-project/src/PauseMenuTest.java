@@ -2,10 +2,9 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-class PassiveDialogueTest {
+class PauseMenuTest {
 
-	PassiveDialogue HW = new PassiveDialogue("Hello World!");
-	PassiveDialogue GB = new PassiveDialogue("Goodbye!");
+	PauseMenu PM1 = new PauseMenu(this.menu, this.save, this.reset);
 	
 	
 	

@@ -2,13 +2,12 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-class PassiveDialogueTest {
+class CharacterTest {
+	
+	
+	/* WIP due to IMG and Dialogue*/ 
+	Character N1 = new Character("Java", IMG, Dialogue, 100);
 
-	PassiveDialogue HW = new PassiveDialogue("Hello World!");
-	PassiveDialogue GB = new PassiveDialogue("Goodbye!");
-	
-	
-	
 	@Test
 	void test() {
 		fail("Not yet implemented");

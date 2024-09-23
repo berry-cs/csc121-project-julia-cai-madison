@@ -10,7 +10,7 @@ public class PassiveDialogue {
 		this.text = text; 
 	}
 	
-	
+
 	
 	
 }
