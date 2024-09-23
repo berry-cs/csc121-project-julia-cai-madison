@@ -18,7 +18,7 @@ public class NovelWorld implements IWorld{
 		this.currentMsg = currentMsg;
 	}
 	
-	// overloaded
+	// overloaded A scene with no message
 	public NovelWorld(IScene currentScn) {
 		super();
 		this.currentScn = currentScn;
@@ -27,7 +27,7 @@ public class NovelWorld implements IWorld{
 	
 	
 	/** produce a visual rendering of this world on the given window */
-	public PApplet draw(PApplet w) { 
+	public PApplet draw(PApplet w) { // w = world
 		
 		this.currentScn.draw(w);
 		w.text(this.currentMsg, 50, 300);

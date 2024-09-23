@@ -8,7 +8,7 @@ public class NovelApp extends PApplet {	// <----- 1. rename AppTemplate everywhe
     IWorld w;
      
     public void settings() {
-        this.size(400, 400);
+        this.size(400, 400); //window size
     }
     
     public void setup() {
