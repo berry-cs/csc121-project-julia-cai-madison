@@ -19,7 +19,7 @@ public class GameScene implements IScene {
 		this.a = a;
 		this.b = b;
 	}
-// new GameScene("weiner", thing1,thing2,);
+// new GameScene("Thing in box", thing1,thing2,);
 
 	public PApplet draw(PApplet w) {
 		w.background(100, 100, 255);
