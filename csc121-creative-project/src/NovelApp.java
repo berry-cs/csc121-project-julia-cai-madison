@@ -12,7 +12,13 @@ public class NovelApp extends PApplet {	// <----- 1. rename AppTemplate everywhe
     }
     
     public void setup() {
-        w = new NovelWorld(200, 0);   	//<----- 2. create your initial world object
+    	IScene end = new EndScene("The end.");
+    	
+    	Thing bed = new Thing(new Posn(150, 100), 100, "Go to sleep.", end);
+    	Thing phone = new Thing(new Posn(300, 150), 50, "Answer the phone.", end);
+    	IScene home = new GameScene("The phone is ringing.", bed, phone);
+    	
+        w = new NovelWorld(home);   	//<----- 2. create your initial world object
     }
     
     public void draw() {
