@@ -10,4 +10,6 @@ public interface IScene {
 	// returns the 'active' dialogue for this scene given the mouse's location
 	public String getMessage(Posn mloc);
 	
+
+	
 }

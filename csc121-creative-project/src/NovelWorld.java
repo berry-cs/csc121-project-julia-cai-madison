@@ -30,7 +30,7 @@ public class NovelWorld implements IWorld{
 	public PApplet draw(PApplet w) { 
 		
 		this.currentScn.draw(w);
-		w.text(this.currentMsg, 50, 300);
+		w.text(this.currentMsg, 50, 300);  
 		
 		
 		
@@ -44,6 +44,14 @@ public class NovelWorld implements IWorld{
 		return new NovelWorld(this.currentScn,  
 							  this.currentScn.getMessage(new Posn(mev.getX(), mev.getY())));
 	}
+	
+	
+	/* produces an updated state of the world after a mouse click event*/
+	 public IWorld mouseClicked(MouseEvent mev) {
+		 return new NovelWorld(this.currentScn, 
+				 		this.currentScn.getMessage(new Posn(mev.getX(), mev.getY())));
+	    	
+	 }
 	
 	
 	
