@@ -9,6 +9,9 @@ public interface IScene {
 	
 	// returns the 'active' dialogue for this scene given the mouse's location
 	public String getMessage(Posn mloc);
+
+	// produces an updated scene based on a click at the given posn
+	public IScene checkClick(Posn posn);
 	
 
 	

@@ -46,6 +46,18 @@ public class GameScene implements IScene {
 
 	}
 
+	@Override
+	public IScene checkClick(Posn posn) {
+
+		if (this.a.closeTo(posn)) {
+			return this.a.getLink();
+		} else if (this.b.closeTo(posn)) {
+			return this.b.getLink(); 
+		} else {
+			return this; 
+		}
+	}
+
 	/*
 	 * Represents a reset screen that responds to mouse clicks. It creates a new
 	 * scene when clicked on by the mouse.

@@ -4,7 +4,7 @@ public class Thing {
 	String msg; //what msg is this for 
 	IScene link;
 	Posn loc;
-	int size;   // radius of the circular bounding box around this thing
+	int size;   // diameter of the circular bounding box around this thing
 	
 	
 	public Thing(Posn loc, int size, String msg, IScene link) {
@@ -31,6 +31,11 @@ public class Thing {
 	
 	/* check if the given location is within range of this thing */
 	public boolean closeTo(Posn mloc) {
-		return  this.loc.distanceTo(mloc) <= this.size;
+		return  this.loc.distanceTo(mloc) <= this.size / 2;
+	}
+	
+	/* produce the scene that this thing is linked to */
+	public IScene getLink() {
+		return this.link;
 	}
 }

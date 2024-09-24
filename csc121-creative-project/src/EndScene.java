@@ -23,5 +23,11 @@ public class EndScene implements IScene {
 	public String getMessage(Posn mloc) {
 		return this.getMessage();
 	}
+	
+	@Override
+	public IScene checkClick(Posn posn) {
+
+		return this;
+	}
 
 }
