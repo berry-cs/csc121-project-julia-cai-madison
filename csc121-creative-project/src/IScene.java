@@ -48,7 +48,7 @@ class ActiveDialogue implements IScene {
 		if (a1.isInBound(posn)) {   //   posn location is within a1's area) {
 				return a1.getNextScene();
 		} else if (a2.isInBound(posn)) {   //   posn location is within a1's area) {
-			return a2.getNextScene();
+			return a2.getNextScene(); //One more if for a3
 		} else {
 			return this;
 		}

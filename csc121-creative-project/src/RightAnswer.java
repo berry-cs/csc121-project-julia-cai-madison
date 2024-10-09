@@ -1,4 +1,4 @@
-
+//ABSTRACT THE ANSWERS
 public class RightAnswer {
 
 	String words;
