@@ -1,24 +1,20 @@
 
-/* Dialogue that responds to mouse clicks and has a 
- * right and two wrong answers*/
+/* Dialogue that responds to mouse clicks, 
+ * shows a character and prompt on the screen,
+ * and has three answers*/
+
 
 import processing.core.PApplet;
 
 public class ActiveDialogue implements IScene{
-	
-	RightAnswer RightAnswer;
-	MidAnswer MidAnswer; // middle ground answer (like maybe)
-	WrongAnswer WrongAnswer;
-	
-	
-	
 
-	public ActiveDialogue(RightAnswer rightAnswer, MidAnswer midAnswer, WrongAnswer wrongAnswer) {
-		super();
-		RightAnswer = rightAnswer;
-		MidAnswer = midAnswer;
-		WrongAnswer = wrongAnswer;
-	}
+	String bkgImg;
+	Character character;
+	String promptImg; // 
+	Answer a1;
+	Answer a2;
+	Answer a3;
+
 
 
 	@Override
@@ -29,19 +25,22 @@ public class ActiveDialogue implements IScene{
 
 
 
-	@Override
-	public IScene checkClick(Posn posn) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-
- //FIX
 	public boolean closeTo(Posn mloc) {
 		// TODO Auto-generated method stub
 		return false;
 	}
-	
-	
-	
+
+	public IScene checkClick(Posn posn) {
+		if (a1.isInBound(posn)) {   //   posn location is within a1's area) {
+			return a1.getNextScene();
+		} else if (a2.isInBound(posn)) {   //   posn location is within a1's area) {
+			return a2.getNextScene(); 
+		} else if (a3.isInBound(posn) ) {
+			return a3.getNextScene();
+		} else {
+			return this;
+		}
+
+	}
 }
+ 

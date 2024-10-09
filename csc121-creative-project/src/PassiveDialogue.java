@@ -5,24 +5,17 @@ import processing.core.PApplet;
 
 public class PassiveDialogue implements IScene{
 
-	String text;
+	String bkgImg;
+	Character character;
+	IScene nextScene;
 	
 	
-	public PassiveDialogue(String text) {
-		this.text = text; 
-	}
+	
+	
 
 
 	@Override
 	public PApplet draw(PApplet w) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-
-
-	@Override
-	public IScene checkClick(Posn posn) {
 		// TODO Auto-generated method stub
 		return null;
 	}
@@ -34,7 +27,9 @@ public class PassiveDialogue implements IScene{
 		return false;
 	}
 	
-
+	public IScene checkClick(Posn posn) {
+		return nextScene;
+	}
 	
 	
 }

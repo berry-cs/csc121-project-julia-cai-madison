@@ -3,10 +3,10 @@ import processing.core.PImage;
 
 public class EndScene implements IScene {
 
-	String msg;
+	String bkgImg;
 
-	public EndScene(String msg) {
-		this.msg = msg;
+	public EndScene(String bkgImg) {
+		this.bkgImg = bkgImg;
 	}
 
 
