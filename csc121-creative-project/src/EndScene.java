@@ -1,4 +1,5 @@
 import processing.core.PApplet;
+import processing.core.PImage;
 
 public class EndScene implements IScene {
 
@@ -11,18 +12,11 @@ public class EndScene implements IScene {
 
 	public PApplet draw(PApplet w) {
 		w.background(255, 0, 0);
+		PImage img = w.loadImage("images/green_blob.gif");
+		w.image(img, 50, 50);
 		return w;
 	}
 
-	// return the passive dialogue for this scene
-	public String getMessage() {
-		return this.msg;
-	}
-
-	// returns the 'active' dialogue for this scene given the mouse's location
-	public String getMessage(Posn mloc) {
-		return this.getMessage();
-	}
 	
 	@Override
 	public IScene checkClick(Posn posn) {
@@ -31,10 +25,5 @@ public class EndScene implements IScene {
 	}
 
 
-	@Override
-	public boolean closeTo(Posn mloc) {
-		// TODO Auto-generated method stub
-		return false;
-	}
 
 }

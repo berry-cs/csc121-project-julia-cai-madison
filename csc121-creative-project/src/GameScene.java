@@ -4,11 +4,27 @@
 import processing.core.PApplet;
 
 
+/*
+ 
+ 
+ 
+ There are 3 types of scenes:
+   ActiveDialogue
+   PasswiveDialogue
+   EndScene
+   
+   Every scene has a character in it.
+   
+ 
+ 
+ 
+ */
+
+
 public class GameScene implements IScene {
 
 	//there should  prob be more things in a GScene 
-	PassiveDialogue passiveD; // 1. Should be passive dialog type
-	ActiveDialogue activeD;
+	
 	Character charaR;
 	Thing DialogB; //the dialog boxS make into image
 	Thing background; //the background make into image
@@ -22,11 +38,9 @@ public class GameScene implements IScene {
 	 * public GameScene(String msg, Thing a, Thing b) { super(); this.msg = msg;
 	 * this.a = a; this.b = b;
 	 */
-	public GameScene(PassiveDialogue passiveD, ActiveDialogue activeD, Character charaR, Thing dialogB,
+	public GameScene(Character charaR, Thing dialogB,
 			Thing background) {
 		super();
-		this.passiveD = passiveD;
-		this.activeD = activeD;
 		this.charaR = charaR;
 		DialogB = dialogB;
 		this.background = background;
@@ -37,25 +51,7 @@ public class GameScene implements IScene {
 	/**DR HAMID how to make the draw happen on top of this.background **/
 	public PApplet draw(PApplet w) {
 		w.background(100, 100, 255);//make this this.background
-		this.passiveD.draw(w);
-		this.activeD.draw(w);
 		return w;
-	}
-
-	// return the passive dialogue for this scene //1.
-	public String getMessage() {
-		return this.passiveD.text; // 1.
-	}
-
-	// returns the 'active' dialogue for this scene 
-	public String getMessage(Posn mloc) {
-		return null;
-
-		/*
-		 * if (this.activeD.closeTo(mloc)) { //fin return this.active.getMessage(); }
-		 * else if (this.activeD.closeTo(mloc)) { return this.activeD.getMessage(); }
-		 * else { return this.getMessage(); }
-		 */
 	}
 
 	//FIX

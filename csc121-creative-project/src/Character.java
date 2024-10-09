@@ -5,14 +5,12 @@ public class Character {
 
 	String name;
 	IMG Sprite; // image 
-	Dialogue Dialogue;
 	int Happiness;
 	
 	
-	public Character(String name, IMG sprite, Dialogue dialogue, int happiness) {
+	public Character(String name, IMG sprite, int happiness) {
 		this.name = name;
 		Sprite = sprite;
-		Dialogue = dialogue;
 		Happiness = happiness;
 	} 
 	

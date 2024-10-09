@@ -20,19 +20,6 @@ public class PassiveDialogue implements IScene{
 	}
 
 
-	@Override
-	public String getMessage() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-
-	@Override
-	public String getMessage(Posn mloc) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
 
 	@Override
 	public IScene checkClick(Posn posn) {
