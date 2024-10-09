@@ -9,7 +9,7 @@ import processing.event.MouseEvent;
 public class NovelWorld implements IWorld{
 
 	IScene currentScn;
-	String currentMsg;
+	String currentMsg; //NOT
 	
 	
 	public NovelWorld(IScene currentScn, String currentMsg) {
@@ -18,7 +18,7 @@ public class NovelWorld implements IWorld{
 		this.currentMsg = currentMsg;
 	}
 	
-	// overloaded A scene with no message
+	// overloaded constructor: A scene with no message
 	public NovelWorld(IScene currentScn) {
 		super();
 		this.currentScn = currentScn;

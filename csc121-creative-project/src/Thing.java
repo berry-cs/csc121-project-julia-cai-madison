@@ -31,7 +31,7 @@ public class Thing {
 	
 	/* check if the given location is within range of this thing */
 	public boolean closeTo(Posn mloc) {
-		return  this.loc.distanceTo(mloc) <= this.size / 2;
+		return  this.loc.distanceTo(mloc) <= this.size / 2; 
 	}
 	
 	/* produce the scene that this thing is linked to */

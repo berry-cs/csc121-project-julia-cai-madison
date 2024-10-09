@@ -13,6 +13,7 @@ public interface IScene {
 	// produces an updated scene based on a click at the given posn
 	public IScene checkClick(Posn posn);
 	
-
+	/* check if the given location is within range of this thing */
+	public boolean closeTo(Posn mloc); 
 	
 }

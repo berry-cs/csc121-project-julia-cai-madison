@@ -2,18 +2,57 @@
 /* Dialogue that responds to mouse clicks and has a 
  * right and two wrong answers*/
 
-public class ActiveDialogue {
-	
-	String RightAnswer1;
-	String WrongAnswer1;
-	String WrongAnswer2;
-	
-	
-	public ActiveDialogue(String rightAnswer1, String wrongAnswer1, String wrongAnswer2) {
+import processing.core.PApplet;
 
-		RightAnswer1 = rightAnswer1;
-		WrongAnswer1 = wrongAnswer1;
-		WrongAnswer2 = wrongAnswer2;
+public class ActiveDialogue implements IScene{
+	
+	RightAnswer RightAnswer;
+	MidAnswer MidAnswer; // middle ground answer (like maybe)
+	WrongAnswer WrongAnswer;
+	
+	
+	
+
+	public ActiveDialogue(RightAnswer rightAnswer, MidAnswer midAnswer, WrongAnswer wrongAnswer) {
+		super();
+		RightAnswer = rightAnswer;
+		MidAnswer = midAnswer;
+		WrongAnswer = wrongAnswer;
+	}
+
+
+	@Override
+	public PApplet draw(PApplet w) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+
+	@Override
+	public String getMessage() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+
+	@Override
+	public String getMessage(Posn mloc) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+
+	@Override
+	public IScene checkClick(Posn posn) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+
+ //FIX
+	public boolean closeTo(Posn mloc) {
+		// TODO Auto-generated method stub
+		return false;
 	}
 	
 	

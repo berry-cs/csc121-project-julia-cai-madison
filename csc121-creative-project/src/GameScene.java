@@ -6,56 +6,68 @@ import processing.core.PApplet;
 
 public class GameScene implements IScene {
 
-//there should  prob be more things in a GScene 
-	String msg; // 1. Should be passive dialog type
-	Thing a; // character
-	Thing b; // Dialogue
+	//there should  prob be more things in a GScene 
+	PassiveDialogue passiveD; // 1. Should be passive dialog type
+	ActiveDialogue activeD;
+	Character charaR;
+	Thing DialogB; //the dialog boxS make into image
+	Thing background; //the background make into image
 	// background
 	// active screen
 
-	public GameScene(String msg, Thing a, Thing b) {
-		super();
-		this.msg = msg;
-		this.a = a;
-		this.b = b;
-	}
-// new GameScene("Thing in box", thing1,thing2,);
 
+
+
+	/*
+	 * public GameScene(String msg, Thing a, Thing b) { super(); this.msg = msg;
+	 * this.a = a; this.b = b;
+	 */
+	public GameScene(PassiveDialogue passiveD, ActiveDialogue activeD, Character charaR, Thing dialogB,
+			Thing background) {
+		super();
+		this.passiveD = passiveD;
+		this.activeD = activeD;
+		this.charaR = charaR;
+		DialogB = dialogB;
+		this.background = background;
+	}
+
+
+	// new GameScene("Thing in box", thing1,thing2,);
+	/**DR HAMID how to make the draw happen on top of this.background **/
 	public PApplet draw(PApplet w) {
-		w.background(100, 100, 255);
-		this.a.draw(w);
-		this.b.draw(w);
+		w.background(100, 100, 255);//make this this.background
+		this.passiveD.draw(w);
+		this.activeD.draw(w);
 		return w;
 	}
 
 	// return the passive dialogue for this scene //1.
 	public String getMessage() {
-		return this.msg; // 1.
+		return this.passiveD.text; // 1.
 	}
 
-	// returns the 'active' dialogue for this scene given the mouse's location
+	// returns the 'active' dialogue for this scene 
 	public String getMessage(Posn mloc) {
+		return null;
 
-		if (this.a.closeTo(mloc)) {
-			return this.a.getMessage();
-		} else if (this.b.closeTo(mloc)) {
-			return this.b.getMessage();
-		} else {
-			return this.getMessage();
-		}
-
+		/*
+		 * if (this.activeD.closeTo(mloc)) { //fin return this.active.getMessage(); }
+		 * else if (this.activeD.closeTo(mloc)) { return this.activeD.getMessage(); }
+		 * else { return this.getMessage(); }
+		 */
 	}
 
-	@Override
+	//FIX
 	public IScene checkClick(Posn posn) {
+		return null;
+	}
 
-		if (this.a.closeTo(posn)) {
-			return this.a.getLink();
-		} else if (this.b.closeTo(posn)) {
-			return this.b.getLink(); 
-		} else {
-			return this; 
-		}
+
+	//FIX
+	public boolean closeTo(Posn mloc) {
+		// TODO Auto-generated method stub
+		return false;
 	}
 
 	/*

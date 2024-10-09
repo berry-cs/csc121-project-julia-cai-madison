@@ -30,4 +30,11 @@ public class EndScene implements IScene {
 		return this;
 	}
 
+
+	@Override
+	public boolean closeTo(Posn mloc) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
 }
