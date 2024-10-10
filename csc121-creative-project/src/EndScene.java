@@ -1,19 +1,20 @@
 import processing.core.PApplet;
 import processing.core.PImage;
 
+// GOOD :D
+
 public class EndScene implements IScene {
 
-	String bkgImg;
+	String Img;
 
-	public EndScene(String bkgImg) {
-		this.bkgImg = bkgImg;
+	public EndScene(String Img) {
+		this.Img = Img;
 	}
-
-
+	
 	public PApplet draw(PApplet w) {
-		w.background(255, 0, 0);
-		PImage img = w.loadImage("images/green_blob.gif");
-		w.image(img, 50, 50);
+		w.background(255, 255, 255);
+		PImage img = w.loadImage(this.Img);
+		w.image(img, 0, 0);
 		return w;
 	}
 

@@ -12,7 +12,15 @@ public class NovelApp extends PApplet {	// <----- 1. rename AppTemplate everywhe
     }
     
     public void setup() {
-   	IScene end = new EndScene("The end.");
+    Character Lua500 = new Character("Lua", "images/LUA500.png", 100);
+    
+    IScene end1 = new EndScene("images/500B1.png");
+    
+	PassiveDialogue intro5 = new PassiveDialogue("images/500B1.png", Lua500, end1, "Five");
+	PassiveDialogue intro4 = new PassiveDialogue("images/500B1.png", Lua500, intro5, "Four");
+	PassiveDialogue intro3 = new PassiveDialogue("images/500B1.png", Lua500, intro4, "Three");
+	PassiveDialogue intro2 = new PassiveDialogue("images/500B1.png", Lua500, intro3, "Two");
+	PassiveDialogue intro1 = new PassiveDialogue("images/500B1.png", Lua500, intro2, "One");
     	
 		/*
 		 * Thing bed = new Thing(new Posn(150, 100), 100, "Go to sleep.", end); Thing
@@ -21,7 +29,7 @@ public class NovelApp extends PApplet {	// <----- 1. rename AppTemplate everywhe
     //	IScene home = new GameScene("The phone is ringing.", bed, phone);
     	//IScene home = new EndScene("Game over");
     	
-        w = new NovelWorld(end);   	//<----- 2. create your initial world object
+        w = new NovelWorld(intro1);   	//<----- 2. create your initial world object
     }
     
     public void draw() {
