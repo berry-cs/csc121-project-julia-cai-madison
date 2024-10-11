@@ -30,7 +30,7 @@ public class PassiveDialogue implements IScene{
 		
 		PImage imgC = w.loadImage(character.getSprite());
 		w.image(imgC, 0, 0);
-		//println(this.dialogue); /?? idk??
+		//w.drawString(dialogue, 50, 50 ); ??
 		return w;
 
 	}
