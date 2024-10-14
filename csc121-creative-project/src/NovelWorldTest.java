@@ -6,31 +6,28 @@ import processing.event.MouseEvent;
 
 class NovelWorldTest {
 	
-	IScene end = new EndScene("The end.");
+	IScene end1 = new EndScene("images/500B1.png");
+	IScene end2 = new EndScene("images/500B2.png");
 	
-	Thing bed = new Thing(new Posn(150, 100), 10, "Go to sleep.", end);
-	Thing phone = new Thing(new Posn(300, 150), 50, "Answer the phone.", end);
-//	IScene home = new GameScene("The phone is ringing.", bed, phone);
-//	NovelWorld V1 = new NovelWorld(home);
+	Character Lua500 = new Character("Lua", "images/LUA500.png", 100);
 	
-	/*
-	 * @Test void testCloseTo() { assertEquals( true, bed.closeTo(new Posn(150,
-	 * 100)) ); assertEquals( true, bed.closeTo(new Posn(150, 96)) ); assertEquals(
-	 * false, bed.closeTo(new Posn(150, 91)) ); }
-	 * 
-	 * @Test void testMouseMoved() { assertEquals( V1, V1.mouseMoved(new
-	 * MouseEvent(null, 1, 0, 0, 400, 400, 0, 1))); assertEquals( new
-	 * NovelWorld(home, "The phone is ringing."), V1.mouseMoved(new MouseEvent(null,
-	 * 1, 0, 0, 145, 90, 0, 1)));
-	 * 
-	 * }
-	 * 
-	 * @Test void testMouseClicked() { assertEquals( new NovelWorld(end),
-	 * V1.mouseClicked(new MouseEvent(null, 1, 0, 0, 150, 100, 0, 1)));
-	 * assertEquals( V1, V1.mouseClicked(new MouseEvent(null, 1, 0, 0, 450, 100, 0,
-	 * 1)));
-	 * 
-	 * }
-	 */
+	// intro (always 1 and linear)
+	// quest (aka the main part which follows the "right answer" and "mid answer")
+	// badEnd (Follows the "wrong answer" or if you fail the happiness meter)
+	// goodEnd (follows winning)
 	
+	PassiveDialogue intro5 = new PassiveDialogue("images/500B1.png", Lua500, end2, "Five");
+	PassiveDialogue intro4 = new PassiveDialogue("images/500B1.png", Lua500, intro5, "Four");
+	PassiveDialogue intro3 = new PassiveDialogue("images/500B1.png", Lua500, intro4, "Three");
+	PassiveDialogue intro2 = new PassiveDialogue("images/500B1.png", Lua500, intro3, "Two");
+	PassiveDialogue intro1 = new PassiveDialogue("images/500B1.png", Lua500, intro2, "One");
+	
+	
+	
+	@Test
+	 void getSprite() {
+		
+		
+		
+	}
 }
