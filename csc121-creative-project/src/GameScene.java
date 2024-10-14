@@ -66,6 +66,13 @@ public class GameScene implements IScene {
 		return false;
 	}
 
+
+	@Override
+	public IScene getNextScene() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 	/*
 	 * Represents a reset screen that responds to mouse clicks. It creates a new
 	 * scene when clicked on by the mouse.

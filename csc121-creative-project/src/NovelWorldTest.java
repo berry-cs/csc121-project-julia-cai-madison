@@ -2,12 +2,15 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
+import processing.core.PFont;
 import processing.event.MouseEvent;
 
 class NovelWorldTest {
 	
 	IScene end1 = new EndScene("images/500B1.png");
 	IScene end2 = new EndScene("images/500B2.png");
+
+
 	
 	Character Lua500 = new Character("Lua", "images/LUA500.png", 100);
 	

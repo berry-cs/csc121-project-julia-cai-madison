@@ -12,15 +12,16 @@ public class NovelApp extends PApplet {	// <----- 1. rename AppTemplate everywhe
     }
     
     public void setup() {
-    Character Lua500 = new Character("Lua", "images/LUA500.png", 100);
+    Character Lua500_2 = new Character("Lua", "images/LuaFini500_1.png", 100);
+    Character Lua500 = new Character("Lua", "images/LuaFini500_2.png", 100);
     
-    IScene end1 = new EndScene("images/500B1.png");
+    IScene end1 = new EndScene("images/500B2.png");
     
-	PassiveDialogue intro5 = new PassiveDialogue("images/500B1.png", Lua500, end1, "Five");
-	PassiveDialogue intro4 = new PassiveDialogue("images/500B1.png", Lua500, intro5, "Four");
-	PassiveDialogue intro3 = new PassiveDialogue("images/500B1.png", Lua500, intro4, "Three");
-	PassiveDialogue intro2 = new PassiveDialogue("images/500B1.png", Lua500, intro3, "Two");
-	PassiveDialogue intro1 = new PassiveDialogue("images/500B1.png", Lua500, intro2, "One");
+	PassiveDialogue intro5 = new PassiveDialogue("images/500B1.png", Lua500_2, end1, "Gimme all your Tix n00b");
+	PassiveDialogue intro4 = new PassiveDialogue("images/500B1.png", Lua500, intro5, "...");
+	PassiveDialogue intro3 = new PassiveDialogue("images/500B1.png", Lua500, intro4, "I said that Ironically");
+	PassiveDialogue intro2 = new PassiveDialogue("images/500B1.png", Lua500, intro3, "Don't look at me like that vro");
+	PassiveDialogue intro1 = new PassiveDialogue("images/500B1.png", Lua500, intro2, "Haiiii :3");
     	
 		/*
 		 * Thing bed = new Thing(new Posn(150, 100), 100, "Go to sleep.", end); Thing

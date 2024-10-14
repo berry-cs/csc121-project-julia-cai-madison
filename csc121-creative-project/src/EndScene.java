@@ -25,6 +25,12 @@ public class EndScene implements IScene {
 		return this;
 	}
 
+	@Override
+	public IScene getNextScene() {
+
+		return this;
+	}
+
 
 
 }

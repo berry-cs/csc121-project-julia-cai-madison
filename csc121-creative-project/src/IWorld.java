@@ -28,9 +28,12 @@ public interface IWorld {
 	default
 	public IWorld mouseDragged(MouseEvent mev) { return this; }
 	
-	/** produce an updated state of this world after a mouse click event */
+	/** produce an updated state of this world after a mouse click event */ //APPLIES
 	default
-	public IWorld mouseClicked(MouseEvent mev) { return this; }
+	public IWorld mouseClicked(MouseEvent mev) { 
+		return this; 
+		
+	}
 	
 	/** produce an updated state of this world after a mouse wheel event */
 	default
