@@ -50,8 +50,22 @@ public class Posn {
 	/** produce the difference between that and this posn */
     public Posn diff(Posn that) {
         return new Posn( that.x - this.x,  that.y - this.y );
+        
     }
 
+ // determine whether `this` point is within width units to the right, 
+ 		//  and height units below `that` point
+ 	public boolean inRange(Posn that, double dx, double dy) {
+ 		return this.x > that.x && this.y > that.y &&
+ 				this.x < (that.x + dx) && this.y < (that.y + dy);
+ 	}
+ 	
+ 
+
+ 	
+    
+    
+    
     @Override
     public int hashCode() {
         return Objects.hash(x, y);

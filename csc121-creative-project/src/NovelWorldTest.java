@@ -9,6 +9,8 @@ class NovelWorldTest {
 	
 	IScene end1 = new EndScene("images/500B1.png");
 	IScene end2 = new EndScene("images/500B2.png");
+	IScene endRed = new EndScene("red sqr.png");
+	IScene endBlue = new EndScene("blue sqr .png");
 
 
 	
@@ -26,6 +28,9 @@ class NovelWorldTest {
 	PassiveDialogue intro1 = new PassiveDialogue("images/500B1.png", Lua500, intro2, "One");
 	
 	
+	Answer red = new Answer("images/red sqr.png",endRed, new Posn(400, 350), 20, 20);
+	Answer blue = new Answer("images/blue sqr .png",endBlue, new Posn(350, 350), 20, 20);
+	Answer green = new Answer("images/GREEN.png", ___, new Posn(400, 300), 20, 20);
 	
 	@Test
 	 void getSprite() {

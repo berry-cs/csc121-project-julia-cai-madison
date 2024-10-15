@@ -31,7 +31,7 @@ public class NovelWorld implements IWorld{
 	
 	/* produces an updated state of the world after a mouse click event*/
 	 public IWorld mouseClicked(MouseEvent mev) {
-		 return new NovelWorld(this.currentScn.checkClick(new Posn(mev.getX(), mev.getY())));
+		 return new NovelWorld(this.currentScn.checkClick(new Posn(mev.getX(), mev.getY()))); 
 		 
 	    	
 	 }

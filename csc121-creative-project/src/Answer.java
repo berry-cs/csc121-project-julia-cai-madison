@@ -17,16 +17,22 @@ public class Answer {
 		this.height = height;
 	}
 
-	// is the given posn's coordinates within the width and hieght of
-	//   this answer's center point
-	public boolean isInBound(Posn posn) {
-		return false; // placeholder until we work on it
-	}
 
 	public IScene getNextScene() {
-		return this.nextScene;
+		return this.nextScene; 
+		
+		
 	}
 
+	public String getImg() {
+		return this.img; 
+	}
+	
+	/** is the given point within this square */
+	public boolean contains(Posn p) {   
+		return p.inRange(this.center, this.width, this.height);
+	}
+	
 }
 
 
