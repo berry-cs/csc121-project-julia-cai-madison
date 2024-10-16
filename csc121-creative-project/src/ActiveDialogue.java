@@ -44,6 +44,11 @@ public class ActiveDialogue implements IScene{
 		PImage imgD = w.loadImage(this.promptImg);  // PROMPT IMAGE
 		w.image(imgD, 0, 0);
 		
+		
+		this.a1.draw(w);
+		this.a2.draw(w);
+		this.a3.draw(w);
+		
 		PImage imgRed = w.loadImage(a1.getImg());
 		imgRed.resize(100, 100);
 		w.image(imgRed, 0, 300);

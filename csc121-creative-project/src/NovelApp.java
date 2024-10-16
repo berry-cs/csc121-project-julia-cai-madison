@@ -32,7 +32,7 @@ public class NovelApp extends PApplet {	// <----- 1. rename AppTemplate everywhe
 		PassiveDialogue intro5 = new PassiveDialogue("images/500B1.png", Lua500_2, end1, "Gimme all your Tix n00b");
 		PassiveDialogue intro4 = new PassiveDialogue("images/500B1.png", Lua500, intro5, "...");
 
-		Answer green = new Answer("images/GREEN.png", intro4, new Posn(400, 300), 20, 20);
+		Answer green = new Answer("images/GREEN.png", intro4, new Posn(300, 300), 20, 20);
 
 
 		ActiveDialogue  active1 = new ActiveDialogue("images/500B1.png", Lua500, "images/COLORWHEEL.jpeg", red, blue, green);

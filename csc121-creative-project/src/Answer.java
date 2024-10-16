@@ -1,11 +1,12 @@
+import processing.core.PApplet;
 
 public class Answer {
 
-	String img;
-	IScene nextScene;
-	Posn center;
-	int width;
-	int height;
+	private String img;
+	private IScene nextScene;
+	private Posn center;
+	private int width;
+	private int height;
 
 
 	public Answer(String img, IScene nextScene, Posn center, int width, int height) {
@@ -17,6 +18,10 @@ public class Answer {
 		this.height = height;
 	}
 
+	
+	public PApplet draw(PApplet w) {
+		return w;
+	}
 
 	public IScene getNextScene() {
 		return this.nextScene; 
