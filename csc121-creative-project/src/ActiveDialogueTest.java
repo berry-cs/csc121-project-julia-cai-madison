@@ -13,15 +13,15 @@ class ActiveDialogueTest {
 	IScene endRed = new EndScene("images/red sqr.png");
 	IScene endBlue = new EndScene("images/blue sqr .png");
 
-	Answer red = new Answer("images/red sqr.png",endRed, new Posn(0, 300), 20, 20);
-	Answer blue = new Answer("images/blue sqr .png",endBlue, new Posn(150, 300), 20, 20);
+	Answer red = new Answer("images/red sqr.png",endRed, new Posn(0, 300), 100, 100);
+	Answer blue = new Answer("images/blue sqr .png",endBlue, new Posn(150, 300), 100, 100);
 
 
 
 	PassiveDialogue intro5 = new PassiveDialogue("images/500B1.png", Lua500_2, end1, "Gimme all your Tix n00b");
 	PassiveDialogue intro4 = new PassiveDialogue("images/500B1.png", Lua500, intro5, "...");
 
-	Answer green = new Answer("images/GREEN.png", intro4, new Posn(300, 300), 20, 20);
+	Answer green = new Answer("images/GREEN.png", intro4, new Posn(300, 300), 100, 100);
 
 
 	ActiveDialogue  active1 = new ActiveDialogue("images/500B1.png", Lua500, "images/COLORWHEEL.jpeg", red, blue, green);

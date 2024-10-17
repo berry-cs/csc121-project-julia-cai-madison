@@ -1,7 +1,7 @@
 
 /* Represents a scene that responds to mouse clicks. Has an image, save button, and reset button.  */
 
-public class PauseMenu {
+/*public class PauseMenu {
 
 	IMG Menu; // scene 
 	Save Save; 
@@ -16,3 +16,4 @@ public class PauseMenu {
 	
 	
 }
+*/

@@ -49,18 +49,6 @@ public class ActiveDialogue implements IScene{
 		this.a2.draw(w);
 		this.a3.draw(w);
 		
-		PImage imgRed = w.loadImage(a1.getImg());
-		imgRed.resize(100, 100);
-		w.image(imgRed, 0, 300);
-		
-		PImage imgBlue = w.loadImage(a2.getImg()); 
-		imgBlue.resize(100, 100);
-		w.image(imgBlue, 150, 300);
-		
-		PImage imgGreen = w.loadImage(a3.getImg()); 
-		imgGreen.resize(100, 100);
-		w.image(imgGreen, 300, 300);
-		
 		return w;
 		
 	}
@@ -86,7 +74,7 @@ public class ActiveDialogue implements IScene{
 	}
 
 	public IScene getNextScene() {
-		return this.checkClick(new Posn(mev.getX(), mev.getY())); 
+		return this; 
 	}
 }
  

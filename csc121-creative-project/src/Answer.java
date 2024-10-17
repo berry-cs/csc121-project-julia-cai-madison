@@ -1,25 +1,29 @@
 import processing.core.PApplet;
+import processing.core.PImage;
 
 public class Answer {
 
-	private String img;
-	private IScene nextScene;
-	private Posn center;
-	private int width;
-	private int height;
+	 String img;
+	 IScene nextScene;
+	 Posn topLeft;
+	 int width;
+	 int height;
 
 
-	public Answer(String img, IScene nextScene, Posn center, int width, int height) {
+	public Answer(String img, IScene nextScene,Posn topLeft, int width, int height) {
 		super();
 		this.img = img;
 		this.nextScene = nextScene;
-		this.center = center;
+		this.topLeft = topLeft;
 		this.width = width;
 		this.height = height;
 	}
 
 	
 	public PApplet draw(PApplet w) {
+		PImage imgA = w.loadImage(this.img);
+		imgA.resize(100, 100);
+		w.image(imgA, this.topLeft.getX(), this.topLeft.getY());
 		return w;
 	}
 
@@ -35,7 +39,7 @@ public class Answer {
 	
 	/** is the given point within this square */
 	public boolean contains(Posn p) {   
-		return p.inRange(this.center, this.width, this.height);
+		return p.inRange(this.topLeft, this.width, this.height);
 	}
 	
 }

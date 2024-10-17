@@ -31,6 +31,7 @@ public class Posn {
 
         return c;
     }
+  
     
     /** produces the distance between this and that */
     public double distanceTo(Posn that) {
