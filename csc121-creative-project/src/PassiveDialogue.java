@@ -31,14 +31,18 @@ public class PassiveDialogue implements IScene{
 		PImage imgB = w.loadImage(this.Img);
 		w.image(imgB, 0, 0);
 
-
+		PImage imgD = w.loadImage("images/DiaB.png");
+		w.image(imgD, 100, 450);
+		
 		PImage imgC = w.loadImage(character.getSprite());
-		w.image(imgC, 70, 30);
+		w.image(imgC, 915, 150);
+		
+	
 
 		
-		PFont sillay = w.createFont("GROBOLD", 30, true);
+		PFont sillay = w.createFont("GROBOLD", 40, true);
 		w.textFont(sillay);
-		w.text(dialogue, 50, 300, 280, 320);
+		w.text(dialogue, 450, 550, 280, 400);
 		//w.drawString(dialogue, 50, 50 ); ??
 		return w;
 

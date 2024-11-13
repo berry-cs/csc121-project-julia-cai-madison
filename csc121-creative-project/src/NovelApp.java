@@ -8,15 +8,22 @@ public class NovelApp extends PApplet {	// <----- 1. rename AppTemplate everywhe
 	IWorld w;
 
 	public void settings() {
-		this.size(400, 400); //window size
+		this.size(1280, 720); //window size
 	}
 
 	public void setup() {
 		
 		
+		// INTRO SCENE
 		
-		Character Lua500_2 = new Character("Lua", "images/LuaFini500_1.png", 100);
-		Character Lua500 = new Character("Lua", "images/LuaFini500_2.png", 100);
+		
+		
+		
+		// SCENE A2
+		
+		Character Lua500_2 = new Character("Lua", "images/LuaMAD.png", 100);
+		Character Lua500 = new Character("Lua", "images/LuaNice.png", 100);
+	//	Character Lua = new Character("Lua", "images/LuaFin.png", 100);
 
 		IScene end1 = new EndScene("images/500B2.png");
 		
@@ -24,21 +31,21 @@ public class NovelApp extends PApplet {	// <----- 1. rename AppTemplate everywhe
 		IScene endRed = new EndScene("images/red sqr.png");
 		IScene endBlue = new EndScene("images/blue sqr .png");
 
-		Answer red = new Answer("images/red sqr.png",endRed, new Posn(0, 300), 100, 100);
-		Answer blue = new Answer("images/blue sqr .png",endBlue, new Posn(150, 300), 100, 100);
+		Answer red = new Answer("images/red sqr.png",endRed, new Posn(50, 600), 100, 100);
+		Answer blue = new Answer("images/blue sqr .png",endBlue, new Posn(250, 600), 100, 100);
 
 
 
-		PassiveDialogue intro5 = new PassiveDialogue("images/500B1.png", Lua500_2, end1, "Gimme all your Tix n00b");
-		PassiveDialogue intro4 = new PassiveDialogue("images/500B1.png", Lua500, intro5, "...");
+		PassiveDialogue intro5 = new PassiveDialogue("images/CS.png", Lua500_2, end1, "Gimme all your Tix n00b");
+		PassiveDialogue intro4 = new PassiveDialogue("images/CS.png", Lua500, intro5, "...");
 
-		Answer green = new Answer("images/GREEN.png", intro4, new Posn(300, 300), 100, 100);
+		Answer green = new Answer("images/GREEN.png", intro4, new Posn(450, 600), 100, 100);
 
 
-		ActiveDialogue  active1 = new ActiveDialogue("images/500B1.png", Lua500, "images/COLORWHEEL.jpeg", red, blue, green);
-		PassiveDialogue intro3 = new PassiveDialogue("images/500B1.png", Lua500, active1, "I said that Ironically");
-		PassiveDialogue intro2 = new PassiveDialogue("images/500B1.png", Lua500, intro3, "Don't look at me like that vro");
-		PassiveDialogue intro1 = new PassiveDialogue("images/500B1.png", Lua500, intro2, "Haiiii :3"); 
+		ActiveDialogue  active1 = new ActiveDialogue("images/CS.png", Lua500, "images/COLORWHEEL.jpeg", red, blue, green);
+		PassiveDialogue intro3 = new PassiveDialogue("images/CS.png", Lua500, active1, "I said that Ironically");
+		PassiveDialogue intro2 = new PassiveDialogue("images/CS.png", Lua500, intro3, "Don't look at me like that vro");
+		PassiveDialogue intro1 = new PassiveDialogue("images/CS.png", Lua500, intro2, "Haiiii :3"); 
 
 
 

@@ -1,8 +1,7 @@
 
 /* Represents a character with a name, Image (what they look like), a dialogue, and a happiness meter */
 
-import processing.core.PApplet;
-import processing.core.PImage;
+
 
 // Good :D
 

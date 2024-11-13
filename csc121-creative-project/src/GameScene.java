@@ -50,7 +50,7 @@ public class GameScene implements IScene {
 	// new GameScene("Thing in box", thing1,thing2,);
 	/**DR HAMID how to make the draw happen on top of this.background **/
 	public PApplet draw(PApplet w) {
-		w.background(100, 100, 255);//make this this.background
+		w.background(200, 100, 255);//make this this.background
 		return w;
 	}
 
