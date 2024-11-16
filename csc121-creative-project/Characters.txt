@@ -1,0 +1,5 @@
+Lua images/LuaNice.png 100
+Lua images/LuaMAD.png 100
+Swift images/swiffin_bruh.png 100
+Swift images/swiffin_norm.png 100
+Swift images/swiffin_talk.png 100

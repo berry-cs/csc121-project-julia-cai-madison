@@ -21,7 +21,7 @@ class NovelWorldTest {
 	// badEnd (Follows the "wrong answer" or if you fail the happiness meter)
 	// goodEnd (follows winning)
 	
-	PassiveDialogue intro5 = new PassiveDialogue("images/500B1.png", Lua500, end2, "Five");
+/*	PassiveDialogue intro5 = new PassiveDialogue("images/500B1.png", Lua500, end2, "Five");
 	PassiveDialogue intro4 = new PassiveDialogue("images/500B1.png", Lua500, intro5, "Four");
 	PassiveDialogue intro3 = new PassiveDialogue("images/500B1.png", Lua500, intro4, "Three");
 	PassiveDialogue intro2 = new PassiveDialogue("images/500B1.png", Lua500, intro3, "Two");
@@ -37,5 +37,5 @@ class NovelWorldTest {
 		
 		
 		
-	}
+	}*/
 }

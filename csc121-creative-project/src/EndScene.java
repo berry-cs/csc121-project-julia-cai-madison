@@ -15,6 +15,7 @@ public class EndScene implements IScene {
 		w.background(255, 255, 255);
 		PImage img = w.loadImage(this.Img);
 		w.image(img, 0, 0);
+		
 		return w;
 	}
 

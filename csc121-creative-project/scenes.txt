@@ -1,0 +1,10 @@
+END images/redSqr.png
+END images/blueSqr.png
+END images/greenCrcl.png
+END images/500B1.png
+END images/500B2.png
+PASSIVE images/CS.png 1 1 gimme all ur tix n00b
+PASSIVE images/CS.png 0 1 ...
+PASSIVE images/CS.png 0 1 I said that ironically 
+PASSIVE images/CS.png 0 1 Don't look at me like that vro
+PASSIVE images/CS.png 0 1 Haiiii :3

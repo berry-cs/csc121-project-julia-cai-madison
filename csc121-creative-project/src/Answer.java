@@ -5,12 +5,15 @@ public class Answer {
 
 	 String img;
 	 IScene nextScene;
-	 Posn topLeft;
+	 int topLeft;
 	 int width;
 	 int height;
 
-
-	public Answer(String img, IScene nextScene,Posn topLeft, int width, int height) {
+	 Posn ForOne = new Posn(50, 600);
+	 Posn ForTwo = new Posn(250, 600);
+	 Posn ForThree = new Posn(450, 600);
+	 
+	public Answer(String img, IScene nextScene,int topLeft, int width, int height) {
 		super();
 		this.img = img;
 		this.nextScene = nextScene;
@@ -21,9 +24,22 @@ public class Answer {
 
 	
 	public PApplet draw(PApplet w) {
+		
 		PImage imgA = w.loadImage(this.img);
 		imgA.resize(100, 100);
-		w.image(imgA, this.topLeft.getX(), this.topLeft.getY());
+			//		Answer red = new Answer("images/red-sqr.png",endRed, new Posn(50, 600), 100, 100);
+			//		Answer blue = new Answer("images/blue-sqr.png",endBlue, new Posn(250, 600), 100, 100);
+			//		Answer green = new Answer("images/GREEN.png", intro4, new Posn(450, 600), 100, 100);
+		if (this.topLeft == 1) {
+			w.image(imgA, ForOne.getX(), ForOne.getY());
+		}
+		else if (this.topLeft == 2) {
+			w.image(imgA, ForTwo.getX(), ForTwo.getY());
+		}
+		else if (this.topLeft == 3) {
+			w.image(imgA, ForThree.getX(), ForThree.getY());
+		}
+		
 		return w;
 	}
 
@@ -38,8 +54,19 @@ public class Answer {
 	}
 	
 	/** is the given point within this square */
-	public boolean contains(Posn p) {   
-		return p.inRange(this.topLeft, this.width, this.height);
+	public boolean contains(Posn p) {  
+		Posn a = null;
+		
+		if (this.topLeft == 1) {
+			a = ForOne;
+		}
+		else if (this.topLeft == 2) {
+			a = ForTwo;
+		}
+		else if (this.topLeft == 3) {
+			a = ForThree;
+		}
+		return p.inRange(a, this.width, this.height);
 	}
 	
 }
