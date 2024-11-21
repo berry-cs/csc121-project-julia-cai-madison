@@ -69,7 +69,7 @@ public class NovelApp extends PApplet {	// <----- 1. rename AppTemplate everywhe
 //SCENE SCANNER
 			try {
 				Scanner sc = new Scanner(new File("scenes.txt"));
-				Scanner sc2 = new Scanner(new File("answers.txt"));
+				//Scanner sc2 = new Scanner(new File("answers.txt"));
 				
 
 				while (sc.hasNext()) {
@@ -84,11 +84,11 @@ public class NovelApp extends PApplet {	// <----- 1. rename AppTemplate everywhe
 					//FOR ANSWER CONSTRUCTION
 					else if (type.equals("ANSWER")) {
 						//Answer red = new Answer("images/red-sqr.png",endRed, new Posn(50, 600), 100, 100);
-						String img = sc2.next();
-						int SceneIndex = sc2.nextInt();
-						int TopLeftType = sc2.nextInt();
-						int width = sc2.nextInt();
-						int height = sc2.nextInt();
+						String img = sc.next();
+						int SceneIndex = sc.nextInt();
+						int TopLeftType = sc.nextInt();
+						int width = sc.nextInt();
+						int height = sc.nextInt();
 						answers.add(new Answer(img, scenes.get(SceneIndex),TopLeftType, width, height));
 					} 
 					//FOR PASSIVE CONSTRUCTION
@@ -102,9 +102,9 @@ public class NovelApp extends PApplet {	// <----- 1. rename AppTemplate everywhe
 						scenes.add(new PassiveDialogue(pic, chars.get(charIndex),
 								scenes.get(nextSceneIndex), dialog));
 					}
-					// FOR ACTICE CONSTRUCTION
+					// FOR ACTIVE CONSTRUCTION
 					//
-					else if (type.equals("ACT")) {
+					else if (type.equals("ACTIVE")) {
 						String bkgimg = sc.next();
 						int charIndex = sc.nextInt();
 						String promptImage = sc.next();
@@ -112,7 +112,7 @@ public class NovelApp extends PApplet {	// <----- 1. rename AppTemplate everywhe
 						int answer2 = sc.nextInt();
 						int answer3 = sc.nextInt();
 	//ActiveDialogue  active1 = new ActiveDialogue("images/CS.png", chars.get(0), "images/COLORWHEEL.jpeg", answer.get(0), answer.get(1), answer.get(2));		
-	scenes.add(new ActiveDialogue(bkgimg,chars.get(charIndex), promptImage, answers.get(answer1),answers.get(answer2),answers.get(answer3)));
+						scenes.add(new ActiveDialogue(bkgimg,chars.get(charIndex), promptImage, answers.get(answer1),answers.get(answer2),answers.get(answer3)));
 					}
 				}
 // END SCENE SCANNER
@@ -190,7 +190,7 @@ public class NovelApp extends PApplet {	// <----- 1. rename AppTemplate everywhe
 
 
 
-			w = new NovelWorld(scenes.get(9));   	//<----- 2. create your initial world object
+			w = new NovelWorld(scenes.get(10));   	//<----- 2. create your initial world object
 		}
 
 

@@ -3,8 +3,17 @@ END images/blueSqr.png
 END images/greenCrcl.png
 END images/500B1.png
 END images/500B2.png
-PASSIVE images/CS.png 1 1 gimme all ur tix n00b
-PASSIVE images/CS.png 0 1 ...
-PASSIVE images/CS.png 0 1 I said that ironically 
-PASSIVE images/CS.png 0 1 Don't look at me like that vro
-PASSIVE images/CS.png 0 1 Haiiii :3
+PASSIVE images/CS.png 1 4 gimme all ur tix n00b
+PASSIVE images/CS.png 0 5  ...
+ANSWER images/redSqr.png 0 1 100 100 
+ANSWER images/blueSqr.png 1 2 100 100 
+ANSWER images/greenCrcl.png 6 3 100 100
+ACTIVE images/CS.png 0 images/COLORWHEEL.jpeg 0 1 2
+PASSIVE images/CS.png 0 7 I said that ironically 
+PASSIVE images/CS.png 0 8 Don't look at me like that vro
+PASSIVE images/CS.png 0 9 Haiiii :3
+
+
+
+
+
