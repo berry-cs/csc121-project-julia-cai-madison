@@ -9,9 +9,9 @@ public class Answer {
 	 int width;
 	 int height;
 
-	 Posn ForOne = new Posn(50, 600);
-	 Posn ForTwo = new Posn(250, 600);
-	 Posn ForThree = new Posn(450, 600);
+	 Posn ForOne = new Posn(50, 500);
+	 Posn ForTwo = new Posn(300, 500);
+	 Posn ForThree = new Posn(550, 500);
 	 
 	public Answer(String img, IScene nextScene,int topLeft, int width, int height) {
 		super();
@@ -26,7 +26,7 @@ public class Answer {
 	public PApplet draw(PApplet w) {
 		
 		PImage imgA = w.loadImage(this.img);
-		imgA.resize(100, 100);
+		imgA.resize(200, 200);
 			//		Answer red = new Answer("images/red-sqr.png",endRed, new Posn(50, 600), 100, 100);
 			//		Answer blue = new Answer("images/blue-sqr.png",endBlue, new Posn(250, 600), 100, 100);
 			//		Answer green = new Answer("images/GREEN.png", intro4, new Posn(450, 600), 100, 100);

@@ -8,6 +8,7 @@ import java.awt.image.BufferedImage;
 import processing.core.*;
 import processing.event.*; 
 
+
 /**
  * Provides the scaffolding to launch a Processing application
  */
@@ -190,7 +191,7 @@ public class NovelApp extends PApplet {	// <----- 1. rename AppTemplate everywhe
 
 
 
-			w = new NovelWorld(scenes.get(10));   	//<----- 2. create your initial world object
+			w = new NovelWorld(scenes.get(30));   	//<----- 2. create your initial world object
 		}
 
 

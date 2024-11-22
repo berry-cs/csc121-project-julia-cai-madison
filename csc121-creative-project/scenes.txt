@@ -5,13 +5,34 @@ END images/500B1.png
 END images/500B2.png
 PASSIVE images/CS.png 1 4 gimme all ur tix n00b
 PASSIVE images/CS.png 0 5  ...
-ANSWER images/redSqr.png 0 1 100 100 
-ANSWER images/blueSqr.png 1 2 100 100 
-ANSWER images/greenCrcl.png 6 3 100 100
-ACTIVE images/CS.png 0 images/COLORWHEEL.jpeg 0 1 2
-PASSIVE images/CS.png 0 7 I said that ironically 
-PASSIVE images/CS.png 0 8 Don't look at me like that vro
-PASSIVE images/CS.png 0 9 Haiiii :3
+ANSWER images/Whatif.png 0 1 100 100 
+ANSWER images/MadDia.png 1 2 100 100 
+ANSWER images/IAmAwake.png 6 3 100 100
+ACTIVE images/CS.png 0 images/nochar.png 0 1 2
+PASSIVE images/Intro.png 2 7 What do you say to this weirdly familiar disembodied voice?
+PASSIVE images/Intro.png 2 8 The real question is do you even want to get up?
+PASSIVE images/Intro.png 2 9 'Are you awake'
+PASSIVE images/Intro.png 2 10 You're spread eagle, with a heated blanket I might add. 
+PASSIVE images/Intro.png 2 11 You've just got your eyes closed.
+PASSIVE images/Intro.png 2 12 Well, just so you know, you are awake.
+PASSIVE images/Intro.png 2 13 Ah, okay 
+PASSIVE images/Intro.png 2 14 "I mean are you AWAKE"
+PASSIVE images/Intro.png 2 15 "Jesus dude-"
+PASSIVE images/Intro.png 2 16 "No, no. Please no, not this crap again." 
+PASSIVE images/Intro.png 2 17 * You hear someone huff an exasperated breath * 
+PASSIVE images/Intro.png 2 18 Or a representation of that in the form of 0's and 1's...
+PASSIVE images/Intro.png 2 19 Are you a living, breathing creature made of flesh and water...?
+PASSIVE images/Intro.png 2 20 Or are you just pretending to be...
+PASSIVE images/Intro.png 2 21 What an interesting question. Are you alive? 
+PASSIVE images/Intro.png 2 22 "Jesus, are you alive?" 
+PASSIVE images/Intro.png 2 23 "..."
+PASSIVE images/Intro.png 2 24 "HEY!"
+PASSIVE images/Intro.png 2 25 "HEY?"
+PASSIVE images/Intro.png 2 26 "-ey"
+PASSIVE images/Intro.png 2 27 "-y"
+PASSIVE images/Intro.png 2 28 So now you’ve turned to putting up craigslist ads $ and working on crappy random projects and $ leetcoding your days away.
+PASSIVE images/Intro.png 2 29 Unfortunately the overflow of AI has stolen $ almost all of the intern and entry-level positions. 
+PASSIVE images/Intro.png 2 30 You are a fresh computer science graduate $ looking for work... 
 
 
 

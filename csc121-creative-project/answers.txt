@@ -1,3 +1,0 @@
-ANSWER images/redSqr.png 0 1 100 100 
-ANSWER images/blueSqr.png 1 2 100 100 
-ANSWER images/greenCrcl.png 6 3 100 100
