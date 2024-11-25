@@ -7,19 +7,23 @@
 
 public class Character {
 
-	String name;
-	String Sprite; // image 
-	int Happiness;
-	
-	
+	private	String name;
+	private String Sprite; // image 
+	private int Happiness;
+
+
 	public Character(String name, String sprite, int happiness) {
 		this.name = name;
 		Sprite = sprite;
 		Happiness = happiness;
 	} 
-	
+
 	public String getSprite() {
 		return this.Sprite;
 	}
 	
+	public String getName() {
+		return this.name;
+	}
+
 }

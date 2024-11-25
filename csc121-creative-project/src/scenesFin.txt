@@ -1,0 +1,4 @@
+END images/
+END images/
+PASSIVE images/BED.png 6 0 You and Vince have a movie you planned $ on watching today and you know he wouldn't $ mind the company of a good friend.
+PASSIVE images/BED.png 6 0 

@@ -5,16 +5,20 @@ import processing.core.PImage;
 
 public class EndScene implements IScene {
 
-	String Img;
+	private String Img;
+	
+	
+	public static final int floatNUM = 255;
+	public static final int TrueZero = 0;
 
 	public EndScene(String Img) {
 		this.Img = Img;
 	}
 	
 	public PApplet draw(PApplet w) {
-		w.background(255, 255, 255);
+		w.background(floatNUM, floatNUM, floatNUM);
 		PImage img = w.loadImage(this.Img);
-		w.image(img, 0, 0);
+		w.image(img, TrueZero, TrueZero);
 		
 		return w;
 	}

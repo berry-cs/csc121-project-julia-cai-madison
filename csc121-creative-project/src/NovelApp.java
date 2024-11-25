@@ -191,7 +191,7 @@ public class NovelApp extends PApplet {	// <----- 1. rename AppTemplate everywhe
 
 
 
-			w = new NovelWorld(scenes.get(30));   	//<----- 2. create your initial world object
+			w = new NovelWorld(scenes.get(41));   	//<----- 2. create your initial world object
 		}
 
 

@@ -1,38 +1,48 @@
-END images/redSqr.png
-END images/blueSqr.png
-END images/greenCrcl.png
-END images/500B1.png
-END images/500B2.png
-PASSIVE images/CS.png 1 4 gimme all ur tix n00b
-PASSIVE images/CS.png 0 5  ...
-ANSWER images/Whatif.png 0 1 100 100 
-ANSWER images/MadDia.png 1 2 100 100 
-ANSWER images/IAmAwake.png 6 3 100 100
-ACTIVE images/CS.png 0 images/nochar.png 0 1 2
-PASSIVE images/Intro.png 2 7 What do you say to this weirdly familiar disembodied voice?
-PASSIVE images/Intro.png 2 8 The real question is do you even want to get up?
-PASSIVE images/Intro.png 2 9 'Are you awake'
-PASSIVE images/Intro.png 2 10 You're spread eagle, with a heated blanket I might add. 
-PASSIVE images/Intro.png 2 11 You've just got your eyes closed.
-PASSIVE images/Intro.png 2 12 Well, just so you know, you are awake.
-PASSIVE images/Intro.png 2 13 Ah, okay 
-PASSIVE images/Intro.png 2 14 "I mean are you AWAKE"
-PASSIVE images/Intro.png 2 15 "Jesus dude-"
-PASSIVE images/Intro.png 2 16 "No, no. Please no, not this crap again." 
-PASSIVE images/Intro.png 2 17 * You hear someone huff an exasperated breath * 
-PASSIVE images/Intro.png 2 18 Or a representation of that in the form of 0's and 1's...
-PASSIVE images/Intro.png 2 19 Are you a living, breathing creature made of flesh and water...?
-PASSIVE images/Intro.png 2 20 Or are you just pretending to be...
-PASSIVE images/Intro.png 2 21 What an interesting question. Are you alive? 
-PASSIVE images/Intro.png 2 22 "Jesus, are you alive?" 
-PASSIVE images/Intro.png 2 23 "..."
-PASSIVE images/Intro.png 2 24 "HEY!"
-PASSIVE images/Intro.png 2 25 "HEY?"
-PASSIVE images/Intro.png 2 26 "-ey"
-PASSIVE images/Intro.png 2 27 "-y"
-PASSIVE images/Intro.png 2 28 So now you’ve turned to putting up craigslist ads $ and working on crappy random projects and $ leetcoding your days away.
-PASSIVE images/Intro.png 2 29 Unfortunately the overflow of AI has stolen $ almost all of the intern and entry-level positions. 
-PASSIVE images/Intro.png 2 30 You are a fresh computer science graduate $ looking for work... 
+END images/THEEND.png
+PASSIVE images/BED.png 6 0 'Hm, not very appropriate attire for guests, I think'
+PASSIVE images/BED.png 6 1 * You look down to see how right he is * 
+PASSIVE images/BED.png 6 2 'Anyway, get up. Swift's like three minutes away and $ you're still in pajamas, man." 
+PASSIVE images/BED.png 6 3 "Then act like it"
+PASSIVE images/BED.png 6 3 "Oh you're awake, no way, that's crazy."
+PASSIVE images/BED.png 6 5 OW WHAT THE- $ WHY?
+PASSIVE images/BED.png 6 6 you assume he whipped you out of bed with and allows $ them to bunch over your face
+PASSIVE images/BED.png 6 7 Vincent, your best friend of 15 years $ and now roommate is glaring down at you haughtily $ and he lets go of the covers. 
+PASSIVE images/BED.png 6 8 *With a loud THUD you find yourself $ flung to the floor of your modest bedroom staring $ blearily at your aggressor's feet*
+PASSIVE images/BED.png 6 9 ...
+PASSIVE images/Intro.png 2 0 Lazy Bum.
+PASSIVE images/Intro.png 2 10 Also your roommate Vince, AKA the voice, ate your $ pint of Stephen and Jeremy's caramel ice-cream $ while you were asleep as payback. So there. 
+PASSIVE images/Intro.png 2 11 Completely missing out on any wacky hijinks $ that may have occured..
+PASSIVE images/Intro.png 2 12 Despite the disembodied voice's best $ efforts, you stay dead to the world for $ the rest of the day.
+PASSIVE images/Intro.png 2 13 Fine then, you don't wake up and $ you don't get out of bed.
+PASSIVE images/Intro.png 2 14 Wow, what an ominous statement...
+ANSWER images/Whatif.png 15 1 100 100 
+ANSWER images/MadDia.png 9 2 100 100 
+ANSWER images/IAmAwake.png 4 3 100 100
+ACTIVE images/BED.png 6 images/nochar.png 0 1 2
+PASSIVE images/Intro.png 2 17 What do you say to this weirdly familiar disembodied $ voice?
+PASSIVE images/Intro.png 2 18 The real question is do you even want to get up?
+PASSIVE images/Intro.png 2 19 'Are you awake'
+PASSIVE images/Intro.png 2 20 You're spread eagle, with a heated blanket $ I might add. 
+PASSIVE images/Intro.png 2 21 You've just got your eyes closed.
+PASSIVE images/Intro.png 2 22 Well, just so you know, you are awake.
+PASSIVE images/Intro.png 2 23 Ah, okay 
+PASSIVE images/Intro.png 2 24 "I mean are you AWAKE"
+PASSIVE images/Intro.png 2 25 "Jesus dude-"
+PASSIVE images/Intro.png 2 26 "No, no. Please no, not this crap again." 
+PASSIVE images/Intro.png 2 27 * You hear someone huff an exasperated breath * 
+PASSIVE images/Intro.png 2 28 Or a representation of that in the form of 0's and 1's...
+PASSIVE images/Intro.png 2 29 Are you a living, breathing creature made of flesh $ and water...?
+PASSIVE images/Intro.png 2 30 Or are you just pretending to be...
+PASSIVE images/Intro.png 2 31 What an interesting question. Are you alive? 
+PASSIVE images/Intro.png 2 32 "Jesus, are you alive?" 
+PASSIVE images/Intro.png 2 33 "..."
+PASSIVE images/Intro.png 2 34 "HEY!"
+PASSIVE images/Intro.png 2 35 "HEY?"
+PASSIVE images/Intro.png 2 36 "-ey"
+PASSIVE images/Intro.png 2 37 "-y"
+PASSIVE images/Intro.png 2 38 So now you’ve turned to putting up craigslist ads $ and working on crappy random projects and $ leetcoding your days away.
+PASSIVE images/Intro.png 2 39 Unfortunately the overflow of AI has stolen $ almost all of the intern and entry-level positions. 
+PASSIVE images/Intro.png 2 40 You are a fresh computer science graduate $ looking for work... 
 
 
 

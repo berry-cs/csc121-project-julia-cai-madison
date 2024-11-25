@@ -7,14 +7,30 @@ import processing.core.PImage;
 
 
 
-// Not good :(
+
 
 public class PassiveDialogue implements IScene{
 
-	String Img;
-	Character character;
-	IScene nextScene;
-	String dialogue;
+	private String Img;
+	private Character character;
+	private	IScene nextScene;
+	private	String dialogue;
+	
+//constants 
+	public static final int floatNUM = 255;
+	public static final int fontSize = 30;
+	public static final int gap = 50;
+	public static final int VincesTalkingX = 420;
+	public static final int TrueZero = 0;
+	public static final int CharaPlace1 = 100;
+	public static final int Diabox1 = 390;
+	public static final int Diabox2 = 450;
+	public static final int nextLineSpacing = 520;
+	public static final int Diabox3 = 100;
+	public static final int Diabox4 = 450;
+	public static final int CharaPlace2 = 915;
+	public static final int CharaPlace3 = 150;
+	
 
 	public PassiveDialogue(String Img, Character character, IScene nextScene, String dialogue) {
 		super();
@@ -28,26 +44,89 @@ public class PassiveDialogue implements IScene{
 	@Override
 	public PApplet draw(PApplet w) {
 
-		w.background(255, 255, 255);
+		w.background(floatNUM, floatNUM, floatNUM);
 		PImage imgB = w.loadImage(this.Img);
-		w.image(imgB, 0, 0);
+		w.image(imgB, TrueZero, TrueZero);
 
-		PImage imgD = w.loadImage("images/DiaB.png");
-		w.image(imgD, 100, 450);
-
+		//constants	
 		PImage imgC = w.loadImage(character.getSprite());
-		w.image(imgC, 915, 150);
-
-
-
-
-		PFont sillay = w.createFont("GROBOLD", 30, true);
+		PImage imgD = w.loadImage("images/DiaB.png");
+		PFont sillay = w.createFont("GROBOLD", fontSize, true);
 		w.textFont(sillay);
 		String curline = ""; //holds the current line before a "new line" ( indicated by a $ ) is found
-		int gap = 50; //space in between lines
-		int howManyDoll = 0; //keeps track of how many new lines have been found
-		//		System.out.println("Dialogue: " + dialogue);
-		for(int i = 0 ; i < dialogue.length() ; i++ ) {
+		/*int gap = 50; //space in between lines
+		 //keeps track of how many new lines have been found
+		int VincesTalkingX = 420;*/
+		int howManyDoll = TrueZero;
+		
+		
+		
+		/* Moves Vincent to the left side of the screen behind the dialogue box if he is speaking 
+		 * It also creates a new line of text if a $ is encountered in the scenes.txt file */ 
+		if (character.getName().startsWith("Vince")) { 
+			w.image(imgC, TrueZero, CharaPlace1);
+
+			w.image(imgD, Diabox1, Diabox2);
+
+			//for
+			for(int i = 0 ; i < dialogue.length() ; i++ ) {
+
+				String c = dialogue.substring(i,i+1); //get the individual character (as a string) from the dialogue
+				//System.out.println("Current char: " + c);
+				if (c.contains("$")) {
+					w.textAlign(imgD.width, imgD.height);
+					w.text(curline, VincesTalkingX, (nextLineSpacing + (howManyDoll * gap))); //increment the height so that the line goes below the others
+					howManyDoll++; //increase by 1
+					curline = ""; //reset
+
+
+				} else {
+					curline = curline + c;
+				}
+			}
+			//for end
+			w.text(curline, VincesTalkingX, (nextLineSpacing + (howManyDoll * gap))); //last line found
+			//---------------------Vince end				
+		} else {
+			w.image(imgC, CharaPlace2, CharaPlace3);
+
+			w.image(imgD, CharaPlace1, Diabox4);
+
+			/* Creates a new line of text if a $ is encountered in the scenes.txt file */ 
+			for(int i = 0 ; i < dialogue.length() ; i++ ) {
+
+				String c = dialogue.substring(i,i+1); //get the individual character (as a string) from the dialogue
+				//System.out.println("Current char: " + c);
+				if (c.contains("$")) { //is it a new line?
+					//System.out.println("I found a new line");
+					w.textAlign(imgD.width, imgD.height);
+					w.text(curline, CharaPlace3, (nextLineSpacing + (howManyDoll * gap))); //increment the height so that the line goes below the others
+					howManyDoll++; //increase by 1
+					curline = ""; //reset
+
+
+				} else {
+					curline = curline + c;
+				}
+			}
+			//for end
+			w.text(curline, CharaPlace3, (nextLineSpacing + (howManyDoll * gap))); //last line found
+
+		}	
+		return w;
+	}	
+
+
+	/*containment
+			w.image(imgC, 0, 100);
+			PImage imgD = w.loadImage("images/DiaB.png");
+		w.image(imgC, 915, 150);
+//end*/
+
+
+
+
+	/*		for(int i = 0 ; i < dialogue.length() ; i++ ) {
 
 			String c = dialogue.substring(i,i+1); //get the individual character (as a string) from the dialogue
 			//System.out.println("Current char: " + c);
@@ -67,7 +146,7 @@ public class PassiveDialogue implements IScene{
 
 		return w;
 	}
-
+	 */
 
 	//FIX
 	public boolean closeTo(Posn mloc) {

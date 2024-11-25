@@ -10,12 +10,18 @@ import processing.core.PImage;
 
 public class ActiveDialogue implements IScene{
 
-	String bkgImg;
-	Character character;
-	String promptImg; // 
-	Answer a1;
-	Answer a2;
-	Answer a3;
+	private	String bkgImg;
+	private	Character character;
+	private	String promptImg; // 
+	private	Answer a1;
+	private	Answer a2;
+	private	Answer a3;
+	
+	
+	public static final int floatNUM = 255;
+	public static final int TrueZero = 0;
+	public static final int CharaPlace2 = 915;
+	public static final int CharaPlace3 = 150;
 
 
 
@@ -33,24 +39,24 @@ public class ActiveDialogue implements IScene{
 
 	@Override
 	public PApplet draw(PApplet w) {
-		w.background(255, 255, 255);
+		w.background(floatNUM, floatNUM, floatNUM);
 		PImage imgB = w.loadImage(this.bkgImg);
-		w.image(imgB, 0, 0);
+		w.image(imgB, TrueZero, TrueZero);
 
 
 		PImage imgC = w.loadImage(character.getSprite());
-		w.image(imgC, 915, 150);
-		
+		w.image(imgC, CharaPlace2, CharaPlace3);
+
 		PImage imgD = w.loadImage(this.promptImg);  // PROMPT IMAGE
-		w.image(imgD, 0, 0);
-		
-		
+		w.image(imgD, TrueZero, TrueZero);
+
+
 		this.a1.draw(w);
 		this.a2.draw(w);
 		this.a3.draw(w);
-		
+
 		return w;
-		
+
 	}
 
 
@@ -77,4 +83,3 @@ public class ActiveDialogue implements IScene{
 		return this; 
 	}
 }
- 

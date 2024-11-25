@@ -1,10 +1,10 @@
 import processing.core.PApplet;
 
 public class Thing {
-	String msg; //what msg is this for 
-	IScene link;
-	Posn loc;
-	int size;   // diameter of the circular bounding box around this thing
+private	String msg; //what msg is this for 
+private	IScene link;
+private	Posn loc;
+private	int size;   // diameter of the circular bounding box around this thing
 	
 	
 	public Thing(Posn loc, int size, String msg, IScene link) {
