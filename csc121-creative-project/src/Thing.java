@@ -1,5 +1,7 @@
 import processing.core.PApplet;
 
+/* is a thing that contains a message, a link, a location, and a size */
+
 public class Thing {
 private	String msg; //what msg is this for 
 private	IScene link;

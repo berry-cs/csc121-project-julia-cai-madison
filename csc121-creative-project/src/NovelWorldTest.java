@@ -7,35 +7,39 @@ import processing.event.MouseEvent;
 
 class NovelWorldTest {
 	
+	Character Swift1 = new Character("Swift", "images/Swift.png");
+	
 	IScene end1 = new EndScene("images/500B1.png");
-	IScene end2 = new EndScene("images/500B2.png");
-	IScene endRed = new EndScene("red sqr.png");
-	IScene endBlue = new EndScene("blue sqr .png");
+	
+	
+	
+	Answer a1 = new Answer("images/COLORWHEEL.jpeg", end1, 1, 100, 100);
+	Answer a2 = new Answer("images/COLORWHEEL.jpeg", end1, 1, 100, 100);
+	Answer a3 = new Answer("images/COLORWHEEL.jpeg", end1, 1, 100, 100);
+	
+	ActiveDialogue ABC = new ActiveDialogue("images/BG.png", Swift1, " images/Bed_code.png", a1, a2, a3);
 
-
 	
-	Character Lua500 = new Character("Lua", "images/LUA500.png", 100);
+	PassiveDialogue intro5 = new PassiveDialogue("images/500B1.png", Swift1, ABC, "Five");
+	PassiveDialogue intro4 = new PassiveDialogue("images/500B1.png", Swift1, intro5, "Four");
+	PassiveDialogue intro3 = new PassiveDialogue("images/500B1.png", Swift1, intro4, "Three");
+	PassiveDialogue intro2 = new PassiveDialogue("images/500B1.png", Swift1, intro3, "Two");
+	PassiveDialogue intro1 = new PassiveDialogue("images/500B1.png", Swift1, intro2, "One");
+	 
 	
-	// intro (always 1 and linear)
-	// quest (aka the main part which follows the "right answer" and "mid answer")
-	// badEnd (Follows the "wrong answer" or if you fail the happiness meter)
-	// goodEnd (follows winning)
-	
-/*	PassiveDialogue intro5 = new PassiveDialogue("images/500B1.png", Lua500, end2, "Five");
-	PassiveDialogue intro4 = new PassiveDialogue("images/500B1.png", Lua500, intro5, "Four");
-	PassiveDialogue intro3 = new PassiveDialogue("images/500B1.png", Lua500, intro4, "Three");
-	PassiveDialogue intro2 = new PassiveDialogue("images/500B1.png", Lua500, intro3, "Two");
-	PassiveDialogue intro1 = new PassiveDialogue("images/500B1.png", Lua500, intro2, "One");
-	
-	
-	Answer red = new Answer("images/red sqr.png",endRed, new Posn(0, 300), 100, 100);
-	Answer blue = new Answer("images/blue sqr .png",endBlue, new Posn(150, 300), 100, 100);
-	Answer green = new Answer("images/GREEN.png", intro4, new Posn(300, 300), 100, 100);
-	
+	 
+	 
 	@Test
-	 void getSprite() {
-		
-		
-		
-	}*/
+	void test() {
+	
+		assertEquals(intro2, this.intro1.getNextScene());
+		assertEquals(intro3, this.intro2.getNextScene());
+		assertEquals(intro4, this.intro3.getNextScene());
+		assertEquals(intro5, this.intro4.getNextScene());
+		assertEquals(ABC, this.intro5.getNextScene());
+		assertEquals(end1, this.a1.getNextScene());
+		assertEquals(end1, this.a2.getNextScene());
+		assertEquals(end1, this.a3.getNextScene());
+	}
+
 }

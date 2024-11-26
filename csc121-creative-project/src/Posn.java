@@ -2,6 +2,8 @@ import java.util.Objects;
 
 import processing.core.PApplet;
 
+/* is a posn that contains an x coordinate and a y coordinate */
+
 public class Posn {
   private  int x;
   private  int y;

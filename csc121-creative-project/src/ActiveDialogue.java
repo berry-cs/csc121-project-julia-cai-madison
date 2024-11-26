@@ -6,6 +6,11 @@
 //
 import processing.core.PApplet;
 
+/* Is the dialogue within the visual novel 
+ * that responds to mouse clicks, contains a background image, a character, 
+ * a prompt image (which has our question(s)), 
+ * and three answers for the user to select. */
+
 import processing.core.PImage;
 
 public class ActiveDialogue implements IScene{
@@ -39,14 +44,19 @@ public class ActiveDialogue implements IScene{
 
 	@Override
 	public PApplet draw(PApplet w) {
+		
+		/* draws the background image into the scene */
 		w.background(floatNUM, floatNUM, floatNUM);
 		PImage imgB = w.loadImage(this.bkgImg);
 		w.image(imgB, TrueZero, TrueZero);
 
-
+		
+		/* loads the character image into the scene */
 		PImage imgC = w.loadImage(character.getSprite());
 		w.image(imgC, CharaPlace2, CharaPlace3);
 
+		
+		/* loads the prompt image into the scene */
 		PImage imgD = w.loadImage(this.promptImg);  // PROMPT IMAGE
 		w.image(imgD, TrueZero, TrueZero);
 
@@ -60,12 +70,13 @@ public class ActiveDialogue implements IScene{
 	}
 
 
-
+	/* check if the given location is within range of this thing */
 	public boolean closeTo(Posn mloc) {
 		// TODO Auto-generated method stub
 		return false;
 	}
-
+	/* checks if the posn location is within the answers area. 
+	 * If so, it gets the next scene. If not, it just keeps the current scene. */
 	public IScene checkClick(Posn posn) {
 		if (a1.contains(posn)) {   //   posn location is within a1's area) {
 			return a1.getNextScene();
@@ -78,7 +89,7 @@ public class ActiveDialogue implements IScene{
 		} 
 
 	}
-
+	/* returns the next scene */
 	public IScene getNextScene() {
 		return this; 
 	}

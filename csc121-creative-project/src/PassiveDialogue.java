@@ -1,13 +1,10 @@
 
-/* Is dialogue that changes with the scene */
+/* Is dialogue that changes with the scene that can lead to active dialogue.
+ * Contains an image, character, nextScene, and dialogue */
 
 import processing.core.PApplet;
 import processing.core.PFont;
 import processing.core.PImage;
-
-
-
-
 
 public class PassiveDialogue implements IScene{
 
@@ -117,51 +114,21 @@ public class PassiveDialogue implements IScene{
 	}	
 
 
-	/*containment
-			w.image(imgC, 0, 100);
-			PImage imgD = w.loadImage("images/DiaB.png");
-		w.image(imgC, 915, 150);
-//end*/
-
-
-
-
-	/*		for(int i = 0 ; i < dialogue.length() ; i++ ) {
-
-			String c = dialogue.substring(i,i+1); //get the individual character (as a string) from the dialogue
-			//System.out.println("Current char: " + c);
-			if (c.contains("$")) { //is it a new line?
-				//System.out.println("I found a new line");
-				w.textAlign(imgD.width, imgD.height);
-				w.text(curline, 150, (520 + (howManyDoll * gap))); //increment the height so that the line goes below the others
-				howManyDoll++; //increase by 1
-				curline = ""; //reset
-
-
-			} else {
-				curline = curline + c;
-			}
-		}
-		w.text(curline, 150, (520 + (howManyDoll * gap))); //last line found
-
-		return w;
-	}
-	 */
-
-	//FIX
+	
+	/* check if the given location is within range of this thing */
 	public boolean closeTo(Posn mloc) {
-		// TODO Auto-generated method stub
 		return false;
 	}
 
+	/* checks if the posn location is within the answers area. If so, it gets the next scene. If not, it just keeps the current scene. */
 	public IScene checkClick(Posn posn) {
 		return nextScene;
 	}
-
+	
+	/* returns the next scene */
 	@Override
-	public IScene getNextScene() { //FIX
-		// TODO Auto-generated method stub
-		return null;
+	public IScene getNextScene() { 
+		return this.nextScene;
 	}
 
 

@@ -1,27 +1,29 @@
 
-/* Represents a character with a name, Image (what they look like), a dialogue, and a happiness meter */
+
+/* Represents a character with a name, 
+ * Image (what they look like), 
+ * a dialogue, and a happiness meter */
 
 
 
-// Good :D
 
 public class Character {
 
 	private	String name;
 	private String Sprite; // image 
-	private int Happiness;
 
 
-	public Character(String name, String sprite, int happiness) {
+
+	public Character(String name, String sprite) {
 		this.name = name;
 		Sprite = sprite;
-		Happiness = happiness;
+		
 	} 
-
+/* returns the sprite (image) */
 	public String getSprite() {
 		return this.Sprite;
 	}
-	
+	/* returns the character's name */
 	public String getName() {
 		return this.name;
 	}

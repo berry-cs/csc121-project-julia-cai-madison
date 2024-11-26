@@ -1,7 +1,7 @@
 import processing.core.PApplet;
 import processing.core.PImage;
 
-// GOOD :D
+/* Is the final scene within the visual novel that contains our ending image(s) */
 
 public class EndScene implements IScene {
 
@@ -23,13 +23,13 @@ public class EndScene implements IScene {
 		return w;
 	}
 
-	
+	/* returns the current scene */
 	@Override
 	public IScene checkClick(Posn posn) {
 
 		return this;
 	}
-
+/* returns the next scene */
 	@Override
 	public IScene getNextScene() {
 
