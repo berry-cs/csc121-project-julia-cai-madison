@@ -69,7 +69,7 @@ public class NovelApp extends PApplet {	// <----- 1. rename AppTemplate everywhe
 
 //SCENE SCANNER
 			try {
-				Scanner sc = new Scanner(new File("scenes.txt"));
+				Scanner sc = new Scanner(new File("SceneFinal.txt"));
 				//Scanner sc2 = new Scanner(new File("answers.txt"));
 				
 
@@ -191,7 +191,7 @@ public class NovelApp extends PApplet {	// <----- 1. rename AppTemplate everywhe
 
 
 
-			w = new NovelWorld(scenes.get(41));   	//<----- 2. create your initial world object
+			w = new NovelWorld(scenes.get(266));   	//<----- 2. create your initial world object
 		}
 
 

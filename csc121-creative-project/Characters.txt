@@ -4,4 +4,9 @@ No images/nochar.png 100
 Swift images/SwiftNorm.png 100
 Swift images/SwiftTalk.png 100
 Swift images/SwiftMad.png 100
-Vince images/VINCY.png 100
+Vince images/Vince_NORM.png 100
+Vince images/Vince_NORM_T.png 100
+Vince images/Vince_MAD.png 100
+Vince images/Vince_MAD_T.png 100
+Vince images/Vince_GOOF_T.png 100
+Vince images/Vince_GOOF.png 100

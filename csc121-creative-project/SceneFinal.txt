@@ -1,0 +1,331 @@
+END images/ChooseS.png
+END images/ChooseV.png
+ANSWER images/Whatif.png 0 1 100 100
+ANSWER images/MadDia.png 0 2 100 100
+ANSWER images/IAmAwake.png 1 3 100 100
+ACTIVE images/BED.png 6 images/SwiftNorm.png 0 0 0
+PASSIVE images/BED.png 6 2 Who do you choose to spend the afternoon with.
+PASSIVE images/BED.png 6 3 You and Vince have a movie you planned $ on watching today and you know he wouldn't $ mind the company of a good friend.
+PASSIVE images/BED.png 6 4 You could ask her to stay.
+PASSIVE images/BED.png 6 5 Hm.
+PASSIVE images/BED.png 6 6 Swift the two of you a dainty wave $ as she sees her self to the door.
+PASSIVE images/BED.png 6 7 She gives the two of you a warm hug $ and Darwin glares at you for the entirety of yours.
+PASSIVE images/BED.png 6 8 "See you two tomorrow for tea."
+PASSIVE images/BED.png 6 9 "I always get my way in the end."
+PASSIVE images/BED.png 6 10 Swift winks
+PASSIVE images/BED.png 6 11 Vince: "It's compelling, I'll give you that. $ I'd be lying if i said I $ wasn't even a little interested."
+PASSIVE images/BED.png 6 12 "I can at least say I've given you both a taste of my language."
+PASSIVE images/BED.png 6 13 Swift: "Well that's all the help I needed today."
+PASSIVE images/BED.png 6 14 Swift shuts her laptop and calls Darwin to her side.
+PASSIVE images/BED.png 6 15 Vince: "I wouldn't count on it."
+PASSIVE images/BED.png 6 16 It's only a matter of time till the world's preferences shift."
+PASSIVE images/BED.png 6 17 Swift: "Evolve or Die people.
+PASSIVE images/BED.png 6 18 Swift and Darwin roll their eyes in tandem.
+PASSIVE images/BED.png 6 19 User: "Amen."
+PASSIVE images/BED.png 6 20 "God, Please deliver me away from languages that aren't java."
+PASSIVE images/BED.png 6 21 Vince: "BUT WE MADE IT THROUGH."
+PASSIVE images/BED.png 6 22 "I thought I was in hell."
+PASSIVE images/BED.png 6 23 All the parameters were backwards and the code uses "self" instead of "this.""
+PASSIVE images/BED.png 6 24 User: "Oh it was terrible.
+PASSIVE images/BED.png 6 25 "See that wasn't so bad was it."
+PASSIVE images/BED.png 6 0 Swift: "Perfect."
+PASSIVE images/BED.png 6 0 Swift smiles good warmly at the two of you.
+PASSIVE images/BED.png 6 0 You smack his shoulder and he laughs.
+PASSIVE images/BED.png 6 0 Vince: "What no wayyyy, how did you know?"
+ANSWER images/BOOLEAN.png 0 1 100 100
+ANSWER images/Int.png 0 2 100 100
+ANSWER images/String.png 0 3 100 100
+ACTIVE images/Illustration.png 6 images/SwiftNorm.png 0 0 0
+PASSIVE images/BED.png 6 26 Just a bit.
+PASSIVE images/BED.png 6 32 You laugh, ok maybe you were messing with them.
+PASSIVE images/BED.png 6 33 Swift: "The questions are still meant for them."
+PASSIVE images/BED.png 6 34 Vince: "Ow! What? Come on. $ You know they're just messing with us."
+PASSIVE images/BED.png 6 35 Swift smacks him on the back of his neck.
+PASSIVE images/BED.png 6 36 Vince: "The Answer's five. You know it, $ I know it, your mom knows it. It's five.
+ANSWER images/Whatif.png 37 1 100 100
+ANSWER images/MadDia.png 37 2 100 100
+ANSWER images/IAmAwake.png 30 3 100 100
+ACTIVE images/BED.png 6 images/SwiftNorm.png 0 0 0
+PASSIVE images/BED.png 6 38 He barely dodges your jab to his stomach.
+PASSIVE images/BED.png 6 39 That's not too hard for you is it?"
+PASSIVE images/BED.png 6 40 Vince: "Just use your common sense.
+PASSIVE images/BED.png 6 41 He hooks an arm around your neck and $ softly sways you around.
+PASSIVE images/BED.png 6 42 Vince: "Come on, you got it. Light work, remember?"
+PASSIVE images/BED.png 6 43 You give Vince a worried look but he just huffs a laugh.
+PASSIVE images/BED.png 6 44 Yeesh, not too bad. But not too good either.
+PASSIVE images/BED.png 6 45 "If I were to run the method .getSize on my lovely Eagel, $ what do expect this to output."
+PASSIVE images/BED.png 6 46 "Assume I've made a number of methods $ for retrieving data from my babies."
+PASSIVE images/BED.png 6 47 Swift: "How about this one."
+PASSIVE images/BED.png 6 48 But you don't have time to think about it because Swift's expression is looking alarmingly devilish.
+PASSIVE images/BED.png 6 49 Why she couldn't just use her own two fingers to do the job herself, you have no idea.
+PASSIVE images/BED.png 6 50 reluctantly flies over to scroll down on her laptop to a few bird objects.
+PASSIVE images/BED.png 6 51 She snaps and Darwin, who was seemed to be in the middle of a riveting bout of Candy Crush on Swift's unattended phone,
+PASSIVE images/BED.png 6 52 "Alright"
+PASSIVE images/BED.png 6 53 Swift: "A harder one you say..."
+PASSIVE images/BED.png 6 54 This gives Swift a devious glint in her eye.
+PASSIVE images/BED.png 6 55 User: "Woah, woah wait a minute."
+PASSIVE images/BED.png 6 56 "Come on swift give them a challenge."
+PASSIVE images/BED.png 6 57 Vince: "That one was too easy."
+ANSWER images/BOOLEAN.png 0 1 100 100
+ANSWER images/Int.png 0 2 100 100
+ANSWER images/String.png 58 3 100 100
+ACTIVE images/Illustration.png 6 images/SwiftNorm.png 0 0 0
+PASSIVE images/BED.png 6 59 Swift: "a very compelling argument."
+PASSIVE images/BED.png 6 60 She rolls her eyes
+PASSIVE images/BED.png 6 61 User: "Because it would hurt a whole lot."
+PASSIVE images/BED.png 6 62 You look at her with a sickeningly pleading expression.
+PASSIVE images/BED.png 6 63 Swift: "Tell me why I shouldn't knock you over the head with this laptop."
+PASSIVE images/BED.png 6 64 Swift looks unimpressed
+PASSIVE images/BED.png 6 65 Vince actually laughs at loud at this
+ANSWER images/BOOLEAN.png 0 1 100 100
+ANSWER images/Int.png 0 66 100 100
+ANSWER images/String.png 58 3 100 100
+ACTIVE images/Illustration.png 6 images/SwiftNorm.png 0 0 0
+PASSIVE images/BED.png 6 67 Aw.
+PASSIVE images/BED.png 6 68 Swift: "Stop."
+PASSIVE images/BED.png 6 69 User: "Who ever moves first-"
+PASSIVE images/BED.png 6 70 A flash of realization crosses Swift's face.
+PASSIVE images/BED.png 6 71 You can't fight the slow curl of your lip as you recite the $ forbidden words.
+PASSIVE images/BED.png 6 72 Oh my god, no way.
+PASSIVE images/BED.png 6 73 Swift: "English?"
+PASSIVE images/BED.png 6 74 Vince: "English."
+PASSIVE images/BED.png 6 75 Vince is trying to hold in his laughter.
+ANSWER images/Whatif.png 76 1 100 100
+ANSWER images/MadDia.png 66 2 100 100
+ANSWER images/IAmAwake.png 58 3 100 100
+ACTIVE images/BED.png 6 images/SwiftNorm.png 0 0 0
+PASSIVE images/BED.png 6 77 "Assuming we know that a bird either is a predator or isn't, $ what type could we use to show the difference?"
+PASSIVE images/BED.png 6 78 "Alright then, last one."
+PASSIVE images/BED.png 6 79 Vince: "Gen-Z's tryin' to cancel sharing and I won't allow it."
+PASSIVE images/BED.png 6 80 He hands you your mug back.
+PASSIVE images/BED.png 6 81 User: "Gross."
+PASSIVE images/BED.png 6 82 His audacity jerks a out of you.
+PASSIVE images/BED.png 6 83 He pauses, looks down at the mug, shrugs, and then continues to drink.
+PASSIVE images/BED.png 6 84 User: "I drank out of that you know."
+PASSIVE images/BED.png 6 85 You scoff
+PASSIVE images/BED.png 6 86 Vince: "My mug though."
+PASSIVE images/BED.png 6 87 Vince doesn't even look at you while he continues to drink.
+PASSIVE images/BED.png 6 88 User: "Wasn't that my coffee?"
+PASSIVE images/BED.png 6 89 He takes a confident sip of coffee from the mug you place on the table earlier and- hey wait.
+PASSIVE images/BED.png 6 90 Vince: "Light work, no reaction."
+ANSWER images/BOOLEAN.png 0 1 100 100
+ANSWER images/Int.png 0 2 100 100
+ANSWER images/String.png 0 3 100 100
+ACTIVE images/Illustration.png 6 images/SwiftNorm.png 0 0 0
+PASSIVE images/BED.png 6 92 "Something else?"
+PASSIVE images/BED.png 6 93 "But when you start categorizing, that's gonna get real annoying real fast"
+PASSIVE images/BED.png 6 94 Vince: "I mean you could."
+ANSWER images/BOOLEAN.png 0 1 100 100
+ANSWER images/Int.png 95 2 100 100
+ANSWER images/String.png 91 3 100 100
+ACTIVE images/Illustration.png 6 images/SwiftNorm.png 0 0 0
+PASSIVE images/BED.png 6 96 ...
+PASSIVE images/BED.png 6 97 "'True.'"
+PASSIVE images/BED.png 6 98 Vince: "'Hello Mr. Vet sir? Could you tell me how much my bird weighs?'"
+PASSIVE images/BED.png 6 99 Vince give you an incredulous look. He pitches his voice to a high, mocking tone and clasps his hand like a damsel.
+ANSWER images/BOOLEAN.png 100 1 100 100
+ANSWER images/String.png 95 2 100 100
+ANSWER images/Int.png 91 3 100 100
+ACTIVE images/AStrinr.png 6 images/SwiftNorm.png 0 0 0
+PASSIVE images/BED.png 6 101 "What type could I use to keep track of his size?"
+PASSIVE images/BED.png 6 102 "Now, how about the second and third"
+PASSIVE images/BED.png 6 103 Swift: "Perfect! See, the two of you are naturals!"
+PASSIVE images/BED.png 6 104 Swift continues as he rubs your back in apologies.
+PASSIVE images/BED.png 6 105 He slaps you on the back so hard you almost fall over and he flounders down to check on you.
+PASSIVE images/BED.png 6 106 Vince: "BOOM! See that wasn't too bad."
+ANSWER images/BOOLEAN.png 0 1 100 100
+ANSWER images/Int.png 0 2 100 100
+ANSWER images/String.png 107 3 100 100
+ACTIVE images/Illustration.png 6 images/SwiftNorm.png 0 0 0
+PASSIVE images/BED.png 6 108 Vince: "No sweat, try again."
+PASSIVE images/BED.png 6 109 He slaps you on the back good naturedly
+PASSIVE images/BED.png 6 110 "Come on, let's be serious now."
+PASSIVE images/BED.png 6 111 Vince: "Swift? Naming her birds by numbers?
+PASSIVE images/BED.png 6 112 Vince shakes his head
+ANSWER images/BOOLEAN.png 0 1 100 100
+ANSWER images/Int.png 113 2 100 100
+ANSWER images/String.png 107 3 100 100
+ACTIVE images/Illustration.png 6 images/SwiftNorm.png 0 0 0
+PASSIVE images/BED.png 6 114 "Something else?"
+PASSIVE images/BED.png 6 115 "Otherwise, no dice."
+PASSIVE images/BED.png 6 116 Vince: "Maybe if there were only two birds in the world and their names were True and False"
+PASSIVE images/BED.png 6 117 User: Why not?
+PASSIVE images/BED.png 6 118 Vince: "Nope."
+ANSWER images/BOOLEAN.png 119 1 100 100
+ANSWER images/Int.png 113 2 100 100
+ANSWER images/String.png 107 3 100 100
+ACTIVE images/Illustration.png 6 images/SwiftNorm.png 12 13 14
+PASSIVE images/BED.png 6 120 Alright then, If we’re making a *name* for the bird, then what type would be best here?
+PASSIVE images/BED.png 6 121 User: “Gee, thanks.”
+PASSIVE images/BED.png 6 122 “To tell you if it’s wrong or not.”
+PASSIVE images/BED.png 6 123 Vince: “Don’t even worry, dude. Just answer what you think it is. I’ll be right here”
+PASSIVE images/BED.png 6 124 You give him not-so-subtle puppy dog eyes and he responds with a comforting hand on your shoulder.
+PASSIVE images/BED.png 6 125 …You should get Vince’s input, just to be safe.
+PASSIVE images/BED.png 6 126 …
+PASSIVE images/BED.png 6 127 Ok ok, Types. You know what types are, right? Yeah you do. 
+PASSIVE images/BED.png 6 128 “Knowing that, what type do you think goes in the first var line?”
+PASSIVE images/BED.png 6 129 “They have a name, a size and a true or false for if they’re a predator or not.”
+PASSIVE images/BED.png 6 130 “Remember my parameters for a bird?”
+PASSIVE images/BED.png 6 131 Swift: “Anyway.”
+PASSIVE images/BED.png 6 132 She rolls her eyes.(or just use her mad sprite)
+PASSIVE images/BED.png 6 133 User: “I don’t care how similar it looks, I’m never letting go.”
+PASSIVE images/Bed_code.png 6 134 He makes sure to pop the “P” as loudly as possible
+PASSIVE images/Bed_code.png 6 135 Vince: “Nope.”
+PASSIVE images/Bed_code.png 6 136 Swift:” Looks just like your precious Java doesn’t it. It's even got the little classes and everything.”
+PASSIVE images/Bed_code.png 6 137 Swift: “Don’t be silly- Now, look at this…”
+PASSIVE images/BED.png 6 138 Swift’s eyes find something interesting on the ceiling away from you and Vince’s annoyed gazes.
+PASSIVE images/BED.png 6 139 Vince:”Wait, wait, wait. You’re just trying to get us on your language.”
+PASSIVE images/BED.png 6 140 Vince squints in confusion, thinks for a moment, and then gives her an equally suspicious look. 
+PASSIVE images/BED.png 6 141 User: “Yeah, I don’t believe you. There’s no way you couldn’t just do this yourself in 3 seconds.”
+PASSIVE images/BED.png 6 142 hm.
+PASSIVE images/BED.png 6 143 Too simple.
+PASSIVE images/BED.png 6 144 Sounds simple enough.
+PASSIVE images/BED.png 6 145 You nod, and Vince mock salutes.
+PASSIVE images/BED.png 6 146 “I need you two to tell me which types go where based on the parameters I told you about.”
+PASSIVE images/BED.png 6 147 “My class is a mess, so the two of you are going to help me fix it.” 
+PASSIVE images/BED.png 6 148 “I already know Vince. Hold your horses.”
+PASSIVE images/BED.png 6 149 She points a testy finger at him before he can do so.
+PASSIVE images/BED.png 6 150 You know he’s gearing up to tell her everything wrong with the thing.
+PASSIVE images/BED.png 6 151 Vince squints at the screen with an amusing intensity you know he only reserves for his code critique preparation.
+PASSIVE images/BED.png 6 152 You follow her pointing finger to an unfinished class called “birds”
+PASSIVE images/BED.png 6 153 Swift: "Here."
+PASSIVE images/BED.png 6 154 She must sense your despair because she flashes you a devious smile and scrolls to the top of one of her files.
+PASSIVE images/BED.png 6 155 You want to sob.
+PASSIVE images/BED.png 6 156 It couldn't be any smaller than a deeply complex program made by a team professionals. 
+PASSIVE images/BED.png 6 157 Then, Swift opens her laptop to her personal coding software and clicks on a project folder.
+PASSIVE images/BED.png 6 158 She snaps her fingers and Darwin quickly lands to set her phone on the table. 
+PASSIVE images/BED.png 6 159 Swift: “Wonderful.”
+PASSIVE images/BED.png 6 160 You nod. Sounds simple enough.
+PASSIVE images/BED.png 6 161 “That make sense?”
+PASSIVE images/BED.png 6 162 "Each of them have a given name, and size. As well as a true or false for if they're a predator or not."
+PASSIVE images/BED.png 6 163 "I’m making a class for birds."
+PASSIVE images/BED.png 6 164 She clicks her tongue and Darwin uses a manicured claw to swipe to the next slide showing a picture of a class diagram.  
+PASSIVE images/BED.png 6 165 "My project is simple enough."
+PASSIVE images/BED.png 6 166 An, impressive trick, you will admit. But that's all the praise that flying rat is getting from you.
+PASSIVE images/BED.png 6 167 Then, she blows a short whistle to Darwin and the bird straightens to attention, swooping up to grab her phone and suspend it in midair for our viewing pleasure.
+PASSIVE images/BED.png 6 168 She pulls out her similarly hot pink phone and pulls up a picture of what looks to be a slideshow of some kind. 
+PASSIVE images/BED.png 6 169 "Now then"
+PASSIVE images/BED.png 6 170 Swift: "Upgrades~"
+PASSIVE images/BED.png 6 171 Vince: "Could've sworn it was rose gold the week before..."
+PASSIVE images/BED.png 6 172 Swift: "I figured it was time for an upgrade from pastel blue. So last week if you ask me."
+PASSIVE images/BED.png 6 173 What happened to last week's laptop."
+PASSIVE images/BED.png 6 174 Vince: "That looks new...
+PASSIVE images/BED.png 6 175 It's practically factory new and you have a feeling that's not too far off the mark.
+PASSIVE images/BED.png 6 176 She somehow pulls out a slim, violently pink laptop from the deepest reaches of her long leather coat and sits it on your small kitchen table.
+PASSIVE images/BED.png 6 177 "Now about my project."
+PASSIVE images/BED.png 6 178 Wha-
+PASSIVE images/BED.png 6 179 Swift: So long as you're washing that thing, Vincent.
+PASSIVE images/BED.png 6 180 User: "You are so corny."
+PASSIVE images/BED.png 6 181 "As Pajamas.
+PASSIVE images/BED.png 6 182 ...
+PASSIVE images/BED.png 6 183 "And besides, I do wear it!
+PASSIVE images/BED.png 6 184 He puts his hand over his heart and looks to the sky as if he were talking about lover lost to war and not twenty-something in a faded sweat-shirt right in front of him*
+PASSIVE images/BED.png 6 185 Vince: "But this was a gift from a very dear friend of mine. I could never disrespect their generosity like that"
+PASSIVE images/BED.png 6 186 The poor thing's gathering dust in that closet and it's spelled CORRECTLY"
+PASSIVE images/BED.png 6 187 User: "I still don't understand why you don't just wear your real one.
+PASSIVE images/BED.png 6 188 "'Hardvard,' God, it kills me every time."
+PASSIVE images/BED.png 6 189 *He looks down at it and giggles to himself and fakes flicking away a tear*
+PASSIVE images/BED.png 6 190 "Just happen to really like this one."
+PASSIVE images/BED.png 6 191 Vince: "Oh come off it you know I have clothes."
+PASSIVE images/BED.png 6 192 "I mean this with love, but do you need a trip to Banana Republic?"
+PASSIVE images/BED.png 6 193 Swift: "Vince dear, I swear to god I saw you wear that exact tee-shirt Monday, Wednesday and Yesterday."
+PASSIVE images/BED.png 6 194 You had no idea just how serious he was.
+PASSIVE images/BED.png 6 195 He pulled that tee right over his robe and vowed rather loudly to both of your attending families that he would wear this shirt "Every single day."
+PASSIVE images/BED.png 6 196 His family got a chuckle out of it but Vince, you might as well have given him a new puppy.
+PASSIVE images/BED.png 6 197 You still remember the look on his face when he opened that misleadingly large package you handed to him at your joint graduation party.
+PASSIVE images/BED.png 6 198 That stupid tee has been a permanent member of his wardrobe ever since you gave it to him on his graduation. 
+PASSIVE images/BED.png 6 199 He's got an air of purposefully obnoxious pride*
+PASSIVE images/BED.png 6 200 *He flexes the logo of his "Hardvard" muscle tee, pushing it out to the two of you with his thumbs hooking the arm holes.
+PASSIVE images/BED.png 6 201 "I've physical proof of my superior intellect."
+PASSIVE images/BED.png 6 202 Vince:  "Hey! if you're gonna call someone dumb make it that guy."
+PASSIVE images/BED.png 6 203 *You and Vince simultaneously throw your hands up in defense*
+PASSIVE images/BED.png 6 204 Swift: "Thought hearing input from the less intelligent might give me a change in perspective~."
+PASSIVE images/BED.png 6 205 I seem to have forgotten the basics."
+PASSIVE images/BED.png 6 206 Swift: "In my effort to enrich my code with the complexities and nuances of my mother language-
+PASSIVE images/BED.png 6 207 Swift: "Precisely that, it’s simplicity of the problem that's- 'stumping me'."
+PASSIVE images/BED.png 6 208 If it's so easy, what's got you stumped?"
+PASSIVE images/BED.png 6 209 Vince: "'Elementary?'
+PASSIVE images/BED.png 6 210 "And the problem is just so elementary. I swear it's driving me MAD!"
+PASSIVE images/BED.png 6 211 Swift: "Ugh, You don't even know the half of it."
+PASSIVE images/BED.png 6 212 You said you got project troubles?"
+PASSIVE images/BED.png 6 213 The bird just melts under his touch and you swear it's looking right at you while it happens, the snake.
+PASSIVE images/BED.png 6 214 "Hi Darwin~
+PASSIVE images/BED.png 6 215 *He hands her the mug and then nods to the bright orange bird daintily perched on her finger and gives it a pet with his pinky as he coos*
+PASSIVE images/BED.png 6 216 Vince: "Hey Swift~
+PASSIVE images/BED.png 6 217 Luckily for that little feather ball, Vincent waltzes in with another mug of coffee to break the tension.
+PASSIVE images/BED.png 6 218 You glare at it, and it glares right back. You think it even snorts at you.
+PASSIVE images/BED.png 6 219 You also notice that she's brought that dang bird again as well. 
+PASSIVE images/BED.png 6 220 Almost.
+PASSIVE images/BED.png 6 221 The smile she gives you is so disarming it's almost easy to forget how bad things go when she needs something from the two of you…
+PASSIVE images/BED.png 6 222 Swift: "I hope you're dressed, I have something for you and Vinny to see."
+PASSIVE images/BED.png 6 223 The sharp clacking of heels and the smell of perfume the price of a small child's kidney—all act as personal fanfare for the woman who taps at the wall of your already open door.
+PASSIVE images/BED.png 6 224 Right as you're pulling down a decent sweatshirt, you hear the apartment buzzer and Vince's muffled voice greeting Swift and letting her into the building.
+PASSIVE images/BED.png 6 225 You almost trip over yourself getting to the doorway and Vince gives you a swat on the back of the head as you squeeze past him.
+PASSIVE images/BED.png 6 226 Man, he's right.
+PASSIVE images/BED.png 6 227 He laughs as you slap a hand to your face.
+PASSIVE images/BED.png 6 228 "You're, uh... Drooling."
+PASSIVE images/BED.png 6 229 "Also, You might want to wash up."
+PASSIVE images/BED.png 6 230 Vince: "Here, this should help."
+PASSIVE images/BED.png 6 231 He disappears from the doorway for a moment and then returns with a homemade-looking mug full of what smells like coffee.
+PASSIVE images/BED.png 6 232 Vince: "Uh, oh. Go hit your face with some water and then ask me that again."
+PASSIVE images/BED.png 6 233 He looks at you incredulously.
+PASSIVE images/BED.png 6 234 "Who?"
+PASSIVE images/BED.png 6 235 User: "You said... Swift is coming?"
+PASSIVE images/BED.png 6 236 You stare at him in confusion, you're still half asleep if you're being honest
+PASSIVE images/BED.png 6 237 "You sleep like the dead dude, christ."
+PASSIVE images/BED.png 6 238 "I only had to try like 5 times within the hour."
+PASSIVE images/BED.png 6 239 Vincent: "Good morning~ Nice of you to finally wake up for me"
+PASSIVE images/BED.png 6 240 Vincent, your best friend of 15 years and now roommate to an uncomfortably small apartment is peaking into your doorway to check on your progress at getting out of bed
+PASSIVE images/BED.png 6 241 Suddenly you remember exactly where you are and the important plans you've agreed to today.
+PASSIVE images/BED.png 6 242 This snaps you awake.
+PASSIVE images/BED.png 6 243 -"IN DRAWERS."
+PASSIVE images/BED.png 6 244 "Swift's like 3 minutes away and you're still in bed"
+PASSIVE images/BED.png 6 245 "Then act like it"
+PASSIVE images/Intro.png 2 243 Vince: Anyway get up. Swift's like 3 minutes away and you're in drawers, man.
+PASSIVE images/Intro.png 2 247 And then they fall right back down.
+PASSIVE images/BED.png 11 248 Good Morning, sleeping beauty~
+PASSIVE images/BED.png 6 249 The covers lift off of you for a moment
+PASSIVE images/Intro.png 2 250 WHY?"
+PASSIVE images/Intro.png 2 251 "OW WHAT THE-
+PASSIVE images/Intro.png 2 252 You groan in frustration and its drowned out by your sheets.
+PASSIVE images/Intro.png 2 253 He lets go of the covers you assume he whipped you out of bed with and allows them to bunch over your face.
+PASSIVE images/BED.png 6 254 Vincent, your best friend of 15 years and now roommate is glaring down at you haughtily
+PASSIVE images/BED.png 6 255 With a loud THUD you find yourself flung to the floor of your modest bedroom staring blearily at your aggressor's feet.
+PASSIVE images/Intro.png 2 256 ... 
+END images/BG.png
+PASSIVE images/Intro.png 2 258 Lazy bum
+PASSIVE images/Intro.png 2 259 So there.
+PASSIVE images/Intro.png 2 260 Also your roommate Vince, AKA the voice, ate your pint of Stephen & Jeremy's caramel ice-cream while you were asleep as pay back.
+PASSIVE images/Intro.png 2 261 Completely missing out on any wacky hijinks that may have occurred today.
+PASSIVE images/Intro.png 2 262 Despite the disembodied voice's best efforts, you stay dead to the world for the rest of the day.
+PASSIVE images/Intro.png 2 263 Fine then, you don't wake up and you don't get out of bed.
+PASSIVE images/Intro.png 2 264 Wow what an ominous question.
+ANSWER images/Whatif.png 265 1 200 200
+ANSWER images/MadDia.png 257 2 200 200
+ANSWER images/IAmAwake.png 246 3 200 200
+ACTIVE images/Intro.png 2 images/nochar.png 36 37 38
+PASSIVE images/Intro.png 2 266 ~What do you say to this weirdly familiar disembodied voice?~
+PASSIVE images/Intro.png 2 267 ~The real question is, do you even want to get up?~
+PASSIVE images/Intro.png 2 268 ~"Are you awake"~
+PASSIVE images/Intro.png 2 269 ~With a heated blanket I might add.~
+PASSIVE images/Intro.png 2 270 ~You're spread eagle~
+PASSIVE images/Intro.png 2 271 ~You've just got your eyes closed.~
+PASSIVE images/Intro.png 2 272 Well, just so you know, you are awake.~
+PASSIVE images/Intro.png 2 273 ~Ah, ok~
+PASSIVE images/Intro.png 2 274 "I mean are you AWAKE"
+PASSIVE images/Intro.png 2 275 "Jesus, not this crap again..."
+PASSIVE images/Intro.png 2 276 You hear someone huff an exasperated breath
+PASSIVE images/Intro.png 2 277 ~Or a representation of that in the form of 1s and 0s~
+PASSIVE images/Intro.png 2 278 ~Are you a living, breathing creature made of flesh and water-~
+PASSIVE images/Intro.png 2 279 ~Or are you just pretending to be.~
+PASSIVE images/Intro.png 2 280 ~Are you alive?~
+PASSIVE images/Intro.png 2 281 ~What an interesting question.~
+PASSIVE images/Intro.png 2 282 Jesus, are you alive?!
+PASSIVE images/Intro.png 2 283 ...
+PASSIVE images/Intro.png 2 284 HEY!
+PASSIVE images/Intro.png 2 285 HEY?
+PASSIVE images/Intro.png 2 286 -ey
+PASSIVE images/Intro.png 2 287 -y
+PASSIVE images/Intro.png 2 288 So now you've turned to putting up craigslist ads $ and working on crappy random projects and $ leetcoding your days away.
+PASSIVE images/Intro.png 2 289 Unfortunately the overflow of AI has stolen $ almost all of the intern and entry-level positions.
+PASSIVE images/Intro.png 2 290 You are a fresh computer science graduate $ looking for work...

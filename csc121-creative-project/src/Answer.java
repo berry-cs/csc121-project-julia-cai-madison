@@ -12,6 +12,7 @@ public class Answer {
 public static final	Posn ForOne = new Posn(50, 500);
 public static final	Posn ForTwo = new Posn(300, 500);
 public static final	Posn ForThree = new Posn(550, 500);
+public static final	Posn ForNone = new Posn(-550, -500);
 
 	public Answer(String img, IScene nextScene,int topLeft, int width, int height) {
 		super();
@@ -39,6 +40,9 @@ public static final	Posn ForThree = new Posn(550, 500);
 		else if (this.topLeft == 3) {
 			w.image(imgA, ForThree.getX(), ForThree.getY());
 		}
+		else if (this.topLeft == 4) {
+			w.image(imgA, ForNone.getX(), ForNone.getY());
+		}
 
 		return w;
 	}
@@ -65,6 +69,9 @@ public static final	Posn ForThree = new Posn(550, 500);
 		}
 		else if (this.topLeft == 3) {
 			a = ForThree;
+		}
+		else if (this.topLeft == 4) {
+			a = ForNone;
 		}
 		return p.inRange(a, this.width, this.height);
 	}

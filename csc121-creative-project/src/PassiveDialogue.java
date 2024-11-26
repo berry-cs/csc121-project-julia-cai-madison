@@ -51,7 +51,7 @@ public class PassiveDialogue implements IScene{
 		//constants	
 		PImage imgC = w.loadImage(character.getSprite());
 		PImage imgD = w.loadImage("images/DiaB.png");
-		PFont sillay = w.createFont("GROBOLD", fontSize, true);
+		PFont sillay = w.createFont("Arial Rounded MT Bold", fontSize, true);
 		w.textFont(sillay);
 		String curline = ""; //holds the current line before a "new line" ( indicated by a $ ) is found
 		/*int gap = 50; //space in between lines
