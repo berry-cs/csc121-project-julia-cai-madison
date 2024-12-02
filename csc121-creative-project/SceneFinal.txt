@@ -301,7 +301,7 @@ PASSIVE images/Intro.png 2 262 Despite the disembodied voice's best efforts, $ y
 PASSIVE images/Intro.png 2 263 Fine then, you don't wake up $ and you don't get out of bed.
 PASSIVE images/Intro.png 2 264 Wow what an ominous question.
 ANSWER images/Whatif.png 265 1 200 200
-ANSWER images/MadDia.png 257 2 200 200
+ANSWER images/Yourmother.png 257 2 200 200
 ANSWER images/IAmAwake.png 246 3 200 200
 ACTIVE images/Intro.png 2 images/nochar.png 36 37 38
 PASSIVE images/Intro.png 2 266 ~What do you say to this weirdly familiar $ disembodied voice?~
